@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Carelyo</title>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <style>
+    body {
+      font-family: sans-serif;
+    }
+
+    .table {
+      margin: auto;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .table-header {
+      font-size: 16px;
+      padding: 10px;
+      line-height: 30px;
+    }
+
+    .table-body {
+      color: #ffffff;
+      width: 100%;
+    }
+
+    .table-footer {
+      font-size: 18px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      color: #707070;
+      align-items: flex-start;
+    }
+
+    .code {
+      background-color: #a5e0d5;
+      border-radius: 25px;
+      padding: 10px;
+      font-size: 33px;
+      display: flex;
+      justify-content: center;
+      margin-inline: 30px;
+      margin-top: 20px;
+      align-items: center;
+    }
+
+    .logo {
+      width: auto;
+      height: 100px;
+    }
+
+    .small-logo {
+      width: auto;
+      height: 60px;
+      margin-top: 0rem;
+      padding-bottom: 1rem;
+    }
+
+    .table-header p {
+      font-size: 18px;
+      color: #707070;
+      padding-block: 5px;
+      padding-inline: 20px;
+    }
+
+    .table-body p {
+      font-size: 18px;
+      color: #10BA72;
+      display: flex;
+      margin-left: 6.5rem;
+    }
+
+    .table-header h1 {
+      font-size: 30px;
+      color: #707070;
+      font-weight: 400;
+      padding-block: 30px;
+    }
+
+    .flex {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .clr-teal {
+      color: #10BA72;
+    }
+
+    .clr-blue {
+      color: #577DFF;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+<table class="table" style="border-collapse: collapse;">
+  <div th:utext="${template_html}"></div>
+  <tr>
+    <td class="table-footer">
+      <span>Regards, </span>
+      <span>Carelyo</span>
+      <img alt="carelyo logo" class="small-logo" src=logo.svg>
+      <p>Visit our site at <span><a class="clr-blue" href="https://carelyo.ng">www.carelyo.com<img
+          alt="" src="cid:logo.png"/></a></span></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

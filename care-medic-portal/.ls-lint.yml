@@ -1,0 +1,15 @@
+ls:
+  .js: camelCase
+  .jsx: camelCase
+  .css: lowercase
+  src/:
+    .dir: lowercase
+
+ignore:
+  - .git
+  - node_modules
+  - .next
+  - next.config.js
+  - src/pages/_document.tsx
+  - src/pages/_app.tsx
+  - src/pages/consultation/[id].jsx

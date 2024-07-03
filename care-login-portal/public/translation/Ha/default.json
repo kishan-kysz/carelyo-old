@@ -1,0 +1,109 @@
+{
+  "translation": {
+    "languages": {
+      "english": "English",
+      "french": "Français",
+      "swedish": "Svenska",
+      "swahili": "Kiswahili",
+      "german": "Deutsch",
+      "spanish": "Español",
+      "akan": "Akan",
+      "afrikaans": "Afrikaans",
+      "portuguese": "Português",
+      "hausa": "Hausa",
+      "yoruba": "Yorùbá",
+      "igbo": "Igbo"
+    }
+  },
+  "title": "Titiloli",
+  "cookies-message": "Wannan shafin yana amfani da cookies don mu kawo karin bayani game da shafinmu.",
+  "cookies-learn-more": "Koyi Karin Bayani...",
+  "cookies-accept": "Janye dukkansu",
+
+  "footer-all-rights-reserved": "Carelyo. Duk wanda aka daukar sababbin hakki.",
+  "footer-tos": "Tsarin Farko",
+  "footer-and": "da",
+  "footer-privacy-policy": "Siyasa na gidauniya",
+
+  "PageControls-back": "Ku dawo zuwa Login",
+  "PageControls-Reset-Pass": "Sake saitin kalmar sirri",
+
+  "PhoneInput-phone-label": "Namban tebur",
+  "PhoneInput-phone-desc": "Don Allah shigar da namban teburi",
+  "PhoneInput-number-error": "Da fatan za a shigar da namban tebur mai suna",
+  "PhoneInput-enter-placeholder":"Shigar da lamba namban ka tare da +234",
+  "login-account-exists": "Ana da akauntin da ke daidai",
+
+  "login-redirect-admin": "Ana kewaye zuwa Dashboard na System Admin",
+  "login-redirect-doctor": "Ana kewaye zuwa Dashboard na Dokta",
+  "login-redirect-patient": "Ana kewaye zuwa Patient Application",
+
+  "login-success": "Login yana da alhakin lafiya",
+  "login-error": "Login baya ba shi da lafiya ba",
+
+  "login-welcome-header": "Karibu!",
+  "login-description-header": "Ba a sani ba gaban wannan shafin? ",
+  "login-createacc-header": "Za a zama mambobi",
+
+  "login-form-email": "Imel",
+  "login-form-email-placeholder": "imel@carelyo.com",
+  "login-form-email-enter": "Shigar da adireshin imel ka",
+  "login-form-password": "Kalmar sirri",
+  "login-form-password-desc": "Don Allah shigar da kalmar sirrika",
+  "login-form-password-placeholder": "Kalmar sirrika",
+  "login-form-password-forgot": "Kalmar sirrika ya fita?",
+
+  "login-signin": "Kira da shafin",
+
+  "forgotpass-onerror-title": "An kasa tsarin mugun sauke kalmar sirri",
+  "forgotpass-onerror-message": "Ba za a iya sauke kalmar sirri a yanzu ba. Lalle a sake gwadawa",
+
+  "forgotpass-title": "Ka sauke kalmar sirri ne?",
+  "forgotpass-title-desc": "Shigar da adireshin imel dinka don samar da hanyar sauke kalmar sirri",
+
+  "forgotpass-form-label": "Imel",
+  "forgotpass-form-placeholder": "imel@carelyo.com",
+
+  "forgotpass-response-title": "Hanyar sauke kalmar sirri da aka bukaci",
+  "forgotpass-response-info1": "Idan adireshin imel da aka shigar aka fi sani ya da aka wuce,",
+  "forgotpass-response-info2": "don Allah duba imel dinka don saurara wata ayyuka da aka bukaci.",
+  "forgotpass-login": "Shiga",
+
+  "newpass-change-success": "Kalmar sirri ya canza",
+  "newpass-change-error": "Samar da sauke kalmar sirri baza ta dafe",
+
+  "newpass-form-title": "Samar da sauke kalmar sirri",
+  "newpass-form-desc": "Tura bayanai na wannan form din don samar da hanyar sauke kalmar sirri",
+
+  "newpass-form-email-label": "Adireshin imel dinka",
+  "newpass-form-email-placeholder": "imel@imel.com",
+
+  "newpass-form-password-label": "Kalmar sirri sabon",
+  "newpass-form-password-placeholder": "Kalmar sirri sabon",
+
+  "newpass-form-passconf-label": "Sake tasowa kalmar sirri",
+  "newpass-form-passconf-placeholder": "Sake tasowa kalmar sirri",
+
+  "register-notif-success": "Don Allah duba imel dinka don sake daidaitawa",
+  "register-notif-error": "Samar da daidaitawa ba ta dafe ba",
+
+  "register-form-header-title": "Samar da akaunt",
+  "register-form-header-desc": " Akwai akaunt?",
+  "register-form-header-label": " Shiga",
+
+  "register-form-referral": "Ku kasance da zamu baka da kowa a Carelyo.",
+  "register-form-enter-details": "Da fatan za a shigar da bayanai dinka don samar da akaunt.",
+
+  "register-form-email": "Imeli",
+  "register-form-email-placeholder": "imel@carelyo.com",
+  "register-form-email-desc": "Za mu aika kwafi na amince na imel",
+
+  "register-form-referral-label": "Kodin gano (a ikon)",
+  "register-form-referral-desc": "Shigar da kodin gano",
+  "register-form-referral-placeholder": "Shigar da kodin gano",
+
+  "register-form-tos-desc": "Idan ka tace, za ka amince da amincinmu da Fasaha da Kwarewar Daƙiƙƙiyar",
+  "register-form-tos-accept": "Amince",
+  "register-form-tos-terms": "Fasaha da Kwarewar Daƙiƙƙiyar",
+  "register-form-btn": "Kunna"
+}

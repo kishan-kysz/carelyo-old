@@ -1,0 +1,105 @@
+.waiting-room-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	z-index: 20;
+	min-height: 600px;
+}
+
+.waiting-room-container {
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	background: #fff;
+	flex-direction: column;
+	align-items: center;
+}
+
+.waiting-room-text-container {
+	padding: 2em;
+	font-family: Poppins, sans-serif;
+}
+
+.waitingroom-booking-confirmed {
+	color: var(--g-color-secondary);
+	text-align: center;
+	font-family: Poppins, sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.waitingroom-booking-sorrymsg {
+	color: var(--g-color-secondary);
+	text-align: center;
+	font-family: Poppins, sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.waitingroom-booking-progress {
+	text-align: center;
+	font-family: Poppins, sans-serif;
+	margin: 10px;
+}
+
+.waitingroom-booking-message {
+	font-family: Poppins, sans-serif;
+	position: relative;
+	color: var(--g-text-color);
+	word-wrap: break-word;
+	text-align: center;
+	font-weight: 500;
+	font-size: 0.9em;
+}
+
+.carelyo-logo {
+	top: 5px;
+	margin: 1em auto;
+	width: 8rem;
+}
+
+.backButton {
+	position: relative;
+	left: -100px;
+	top: 15px;
+}
+
+.waitingroom-booking-logo {
+	margin-top: 7em;
+	background-color: #a5e0d5;
+	box-shadow: 0 0 0 0 rgb(0 0 0 / 100%);
+	border-radius: 50%;
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+
+/* CODE FOR THE SMALLER PULSE */
+@keyframes pulse {
+	0% {
+		transform: scale(0.75);
+		box-shadow: 0 0 0 0 rgb(164 255 240 / 70%);
+	}
+
+	70% {
+		transform: scale(0.8);
+		box-shadow: 0 0 0 10px rgb(120 209 194 / 70%);
+	}
+
+	100% {
+		transform: scale(0.75);
+		box-shadow: 0 0 0 0 rgb(63 165 148 / 70%);
+	}
+}
+
+@media screen and (max-width: 967px) {
+	.backButton {
+		left: -10px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.backButton {
+		left: 0;
+	}
+}

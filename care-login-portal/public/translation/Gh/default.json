@@ -1,0 +1,110 @@
+{
+  "translation": {
+    "languages": {
+      "english": "English",
+      "french": "Français",
+      "swedish": "Svenska",
+      "swahili": "Kiswahili",
+      "german": "Deutsch",
+      "spanish": "Español",
+      "akan": "Akan",
+      "afrikaans": "Afrikaans",
+      "portuguese": "Português",
+      "hausa": "Hausa",
+      "yoruba": "Yorùbá",
+      "igbo": "Igbo"
+    }
+  },
+  "title": "Soro",
+  "cookies-message": "Wɔfa amansan biako sɛnea wopɛ sɛ wo werɛ ase ma wo wɛb saet no.",
+  "cookies-learn-more": "Sɔhwɛdeɛ ho",
+  "cookies-accept": "Hyɛ asɛm",
+
+  "footer-all-rights-reserved": "Carelyo. Ahiafoɔ nyinaa asiw",
+  "footer-tos": "Ahiafoɔ kwan",
+  "footer-and": "na",
+  "footer-privacy-policy": "Nya Asɛmpa Kwan",
+
+"PageControls-back": "Bekum Login",
+"PageControls-Reset-Pass": "San hyɛ Mmɔborɔn",
+"login-account-exists": "Ɛyɛ akawantan a wɔde",
+
+  "PhoneInput-phone-label": "Nombɔ",
+  "PhoneInput-phone-desc": "Ma nombɔ no ho na sɛwo werɛ ase",
+  "PhoneInput-number-error": "Ma nombɔ no biako so",
+  "PhoneInput-enter-placeholder": "Ma nombɔ no eg. +234",
+
+  "login-redirect-admin": "Ɛredu aseɛ soɔ yi akosi System Admin Dashboard no",
+  "login-redirect-doctor": "Ɛredu aseɛ soɔ yi akosi Doctor Dashboard no",
+  "login-redirect-patient": "Ɛredu aseɛ soɔ yi akosi Patient Application no",
+
+  "login-success": "Wɔbɛhyia login so",
+  "login-error": "Ɛyɛ dɔnkɔ kyɛn login no",
+
+  "login-welcome-header": "Akwaaba!",
+  "login-description-header": "Ɛyɛ bɛsra wo sɛn? ",
+  "login-createacc-header": " Fa akaunt yi",
+
+  "login-form-email": "Emel",
+  "login-form-email-placeholder": "emel@carelyo.com",
+  "login-form-email-enter": "Ma emel nso",
+  "login-form-password": "Nkɔso",
+  "login-form-password-desc": "Ma nkɔso no",
+  "login-form-password-placeholder": "Wo nkɔso no",
+  "login-form-password-forgot": "Woadi nkɔso ho bɛka wo?",
+
+  "login-signin": "Hyɛ wɔn asɛm",
+
+  "forgotpass-onerror-title": "Ayɛ sɛbɔɔ ho",
+  "forgotpass-onerror-message": "Ɛnkɔ mmɔborɔn no, kyerɛ sɛnea wobɛba no wɔara",
+
+  "forgotpass-title": "Wubetumi mmɔborɔn ho?",
+  "forgotpass-title-desc": "Ma emel wo ho no na wobɛsan hyɛ mmɔborɔn link",
+
+  "forgotpass-form-label": "Emel",
+  "forgotpass-form-placeholder": "emel@carelyo.com",
+
+  "forgotpass-response-title": "Mmɔborɔn san hyɛɛso",
+  "forgotpass-response-info1": "Sɛ emel a wobɛma no bɛyɛ ade a,",
+  "forgotpass-response-info2": "fa wo emel so na san hyɛ nsa frɛw no kwan so",
+
+  "forgotpass-login": "Kyɛ yie",
+
+  "newpass-change-success": "Wo nkɔso no bɛsan hyɛɛso",
+  "newpass-change-error": "Mmɔborɔn nso bɛyɛ sɛbɔɔ ho",
+
+  "newpass-form-title": "Fa wo nkɔso san hyɛɛso",
+  "newpass-form-desc": "Bɔ sɛnea akwanya no ho kwan ma wo nkɔso no fa",
+
+  "newpass-form-email-label": "Wo emel",
+  "newpass-form-email-placeholder": "emel@email.com",
+
+  "newpass-form-password-label": "Nkɔso Foforo",
+  "newpass-form-password-placeholder": "Nkɔso Foforo",
+
+  "newpass-form-passconf-label": "Fa nkɔso no foforo so",
+  "newpass-form-passconf-placeholder": "Fa nkɔso no foforo so",
+
+  "register-notif-success": "Ma emel wo so na san hyɛɛso",
+  "register-notif-error": "Nkrataafa no bɛyɛ sɛbɔɔ ho",
+
+  "register-form-header-title": "Fa Akawnt",
+  "register-form-header-desc": "Ɛsɛ sɛ wohu akawnt no?",
+  "register-form-header-label": "Kyɛ yie",
+
+  "register-form-referral": "Wobɛsan hyɛ Carelyo a ɔdɔ yɛn na wɔka wo fa akawnt.",
+  "register-form-enter-details": "Bɔ sɛnea akaunt no ho kwan ma wo",
+
+  "register-form-email": "Emel",
+  "register-form-email-placeholder": "emel@carelyo.com",
+  "register-form-email-desc": "Yɛnntumi nyɛ wo emel akyerɛ nea ɛyɛ ankorankorɛ ho",
+
+  "register-form-referral-label": "Sɛ wonhu deɛn ho adwene (asoɔden)",
+  "register-form-referral-desc": "Bɔ sɛnea asoɔden no nyinaa",
+  "register-form-referral-placeholder": "Bɔ sɛnea asoɔden no nyinaa",
+
+  "register-form-tos-desc": "Sɛ wopɛ sɛ wohyɛ nea yɛyɛ na wɔbɛsan wo, wubetumi afi wɔn akyerɛ yɛn nhoma ne ntoso",
+  "register-form-tos-accept": "Kɔkɔɔ",
+  "register-form-tos-terms": "Ntoso ne Nhoma",
+  "register-form-btn": "Regista"
+}

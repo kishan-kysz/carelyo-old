@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap');
+
+:root {
+    --g-font-family: 'Poppins', sans-serif;
+    --g-font-size: 0.8rem;
+    --g-text-color: #333;
+    --g-color-grey: #8f8f92;
+    --g-primary-title-size: 2rem;
+    --g-color-primary: #a5e0d5;
+    --g-color-secondary: #05a98b;
+    --g-color-warning: #f9f871;
+    --g-color-danger: #a90523;
+    --g-color-background: #fff;
+    --g-box-shadow: 0 4px 4px rgb(73 72 72 / 70%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    height: 100vh;
+    width: 100%;
+    overflow-y: auto;
+    background-color: var(--g-color-primary);
+    font-family: var(--g-font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgb(218 218 221);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--g-color-secondary);
+    border-radius: 10px;
+    border: 1px solid rgb(133 133 133);
+}
+
+@media only screen and (width >=481px) {
+    .Toastify__toast-container--bottom-center {
+        bottom: 16rem;
+    }
+}
+
+/* Move content after open the sidebar */
+.w-90 {
+    width: 90% !important;
+}
+
+.opended-navbar {
+    width: 90% !important;
+}
+
+/* For Mobile */
+@media all and (width <=450px) {
+    .bm-menu {
+        height: 100vh;
+    }
+}
+
+/* For Tabelt */
+@media all and (width >=451px) and (width <=960px) {
+    .opended-navbar {
+        position: relative;
+        left: 10px;
+        width: 70% !important;
+    }
+}
+
+/* Bigger than tablet */
+@media (width >=961px) {
+    .bm-menu {
+        height: 100vh;
+    }
+
+    .opended-navbar {
+        left: 10px;
+        width: 90% !important;
+    }
+
+    .footer {
+        bottom: 0;
+        width: 100%;
+    }
+}
+
+.mantine-1812dwp[data-active] {
+    font-weight: 800;
+}

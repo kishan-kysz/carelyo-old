@@ -1,0 +1,109 @@
+{
+  "translation": {
+    "languages": {
+      "english": "English",
+      "french": "Français",
+      "swedish": "Svenska",
+      "swahili": "Kiswahili",
+      "german": "Deutsch",
+      "spanish": "Español",
+      "akan": "Akan",
+      "afrikaans": "Afrikaans",
+      "portuguese": "Português",
+      "hausa": "Hausa",
+      "yoruba": "Yorùbá",
+      "igbo": "Igbo"
+    }
+  },
+  "title": "Titel",
+  "cookies-message": "Den här webbplatsen använder cookies för att säkerställa att du får den bästa upplevelsen på vår webbplats.",
+  "cookies-learn-more": "Lär dig mer...",
+  "cookies-accept": "Acceptera alla",
+
+  "footer-all-rights-reserved": "Carelyo. Alla rättigheter förbehållna.",
+  "footer-tos": "Användarvillkor",
+  "footer-and": "och",
+  "footer-privacy-policy": "Integritetspolicy",
+
+  "PageControls-back": "Tillbaka till inloggning",
+  "PageControls-Reset-Pass": "Återställ lösenord",
+
+  "PhoneInput-phone-label": "Telefonnummer",
+  "PhoneInput-phone-desc": "Ange ditt telefonnummer",
+  "PhoneInput-number-error": "Ange korrekt telefonnummer",
+  "PhoneInput-enter-placeholder": "Ange ditt telefonnummer, t.ex. +46",
+  "login-account-exists": "Användarkontot finns redan",
+
+  "login-redirect-admin": "Omdirigerar till systemadministratörens instrumentpanel",
+  "login-redirect-doctor": "Omdirigerar till doktorns instrumentpanel",
+  "login-redirect-patient": "Omdirigerar till patientapplikationen",
+
+  "login-success": "Inloggning lyckades",
+  "login-error": "Inloggning misslyckades",
+
+  "login-welcome-header": "Välkommen!",
+  "login-description-header": "Har du inte ett konto ännu? ",
+  "login-createacc-header": " Skapa konto",
+
+  "login-form-email": "E-post",
+  "login-form-email-placeholder": "email@carelyo.com",
+  "login-form-email-enter": "Ange din e-postadress",
+  "login-form-password": "Lösenord",
+  "login-form-password-desc": "Ange ditt lösenord",
+  "login-form-password-placeholder": "Ditt lösenord",
+  "login-form-password-forgot": "Glömt lösenord?",
+
+  "login-signin": "Logga in",
+
+  "forgotpass-onerror-title": "För många försök",
+  "forgotpass-onerror-message": "Kan inte återställa lösenord just nu. Försök igen senare",
+
+  "forgotpass-title": "Glömt ditt lösenord?",
+  "forgotpass-title-desc": "Ange din e-postadress för att få en återställningslänk",
+
+  "forgotpass-form-label": "E-post",
+  "forgotpass-form-placeholder": "email@carelyo.com",
+
+  "forgotpass-response-title": "Begäran om lösenordsåterställning",
+  "forgotpass-response-info1": "Om e-postadressen du angav matchade ett befintligt konto,",
+  "forgotpass-response-info2": "kolla din e-post för instruktioner om vad du ska göra härnäst.",
+  "forgotpass-login": "Logga in",
+
+  "newpass-change-success": "Lösenordet har ändrats",
+  "newpass-change-error": "Återställning misslyckades",
+
+  "newpass-form-title": "Återställ ditt lösenord",
+  "newpass-form-desc": "Fyll i formuläret nedan för att återställa ditt lösenord",
+
+  "newpass-form-email-label": "Din e-post",
+  "newpass-form-email-placeholder": "email@email.com",
+
+  "newpass-form-password-label": "Nytt lösenord",
+  "newpass-form-password-placeholder": "Nytt lösenord",
+
+  "newpass-form-passconf-label": "Bekräfta lösenord",
+  "newpass-form-passconf-placeholder": "Bekräfta lösenord",
+
+  "register-notif-success": "Var vänlig och kolla din e-post för att bekräfta",
+  "register-notif-error": "Registrering misslyckades",
+
+  "register-form-header-title": "Skapa konto",
+  "register-form-header-desc": "Har du redan ett konto?",
+  "register-form-header-label": " Logga in",
+
+  "register-form-referral": "Du har blivit inbjuden till carelyo.",
+  "register-form-enter-details": "Var god ange dina uppgifter för att skapa ett konto.",
+
+  "register-form-email": "E-post",
+  "register-form-email-placeholder": "email@carelyo.com",
+  "register-form-email-desc": "Vi skickar en bekräftelsemail",
+
+  "register-form-referral-label": "Inbjudningskod (valfritt)",
+  "register-form-referral-desc": "Ange en inbjudningskod",
+  "register-form-referral-placeholder": "Ange inbjudningskod",
+
+  "register-form-tos-desc": "Genom att kryssa i rutan bekräftar du att du har läst, förstått och godkänt våra villkor och tjänster",
+  "register-form-tos-accept": "Godkänn",
+  "register-form-tos-terms": "Villkor och tjänster",
+  "register-form-btn": "Registrera"
+}

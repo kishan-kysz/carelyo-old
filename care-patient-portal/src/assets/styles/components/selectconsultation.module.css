@@ -1,0 +1,29 @@
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.c-selection {
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+}
+
+.c-selection-text {
+	font-size: 1em;
+	text-align: center;
+	font-weight: bold;
+}
+
+.c-selection-select {
+	border-radius: 25px;
+	background: white;
+	height: 59px;
+	padding-left: 1rem;
+	font-size: 16px;
+	margin-bottom: 3vh;
+}
+
+.btn {
+	margin-bottom: 1rem;
+}

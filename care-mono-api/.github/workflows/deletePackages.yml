@@ -1,0 +1,22 @@
+name: Delete Package
+
+on:
+  workflow_dispatch:
+    inputs:
+      target-branch:
+        description: 'Target Branch'
+        required: true
+        default: 'develop'
+
+jobs:
+  build-and-push:
+    runs-on: self-hosted
+
+    steps:
+    - name: delete-old-packages
+      uses: actions/delete-package-versions@v4
+      with:
+        owner: Carelyo
+        package-name: carlyo-api
+        package-type: container
+        token: ${{ secrets.DELETE_PACKAGES_TOKEN }}

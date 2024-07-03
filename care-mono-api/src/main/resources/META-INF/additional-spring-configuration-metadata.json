@@ -1,0 +1,19 @@
+{
+    "properties": [
+        {
+            "name": "daily.video.api-url",
+            "type": "java.lang.String",
+            "description": "The url for acessing daily.co api"
+        },
+        {
+            "name": "daily.video.api-key",
+            "type": "java.lang.String",
+            "description": "Api key for daily.co found on the dashboard, used to authorize requests to the daily.co api"
+        },
+        {
+            "name": "app.login.url",
+            "type": "java.lang.String",
+            "description": "the url for the login page"
+        }
+    ]
+}

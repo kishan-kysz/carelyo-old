@@ -1,0 +1,24 @@
+# AS <NAME> to name this stage as maven
+FROM maven:3.6.3 AS maven
+LABEL MAINTAINER="dev@carelyo.com"
+ENV HOME=/usr/src/app
+RUN mkdir -p $HOME
+WORKDIR $HOME
+ADD pom.xml $HOME
+RUN \
+    --mount=type=cache,target=/var/cache/.m2 \
+    mvn clean install && mvn verify --fail-never || echo "Maven build failed"
+# Compile and package the application to an executable JAR
+ADD . $HOME
+RUN mvn -Dmaven.test.skip package
+# For Java 11,
+FROM amd64/eclipse-temurin:11.0.20.1_1-jdk-alpine
+
+ARG JAR_FILE=backend-0.0.1-spring-boot.jar
+
+WORKDIR /opt/app
+
+# Copy the spring-boot-api-tutorial.jar from the maven stage to the /opt/app directory of the current stage.
+COPY --from=maven /usr/src/app/target/${JAR_FILE} /opt/app/
+
+ENTRYPOINT ["java","-jar","backend-0.0.1-spring-boot.jar"]

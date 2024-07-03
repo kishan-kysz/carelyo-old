@@ -1,0 +1,1 @@
+alter table consultation add column consultation_type varchar(255) null

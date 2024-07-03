@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "types": [
+      "node",
+      "vite/client"
+    ],
+    "useDefineForClassFields": true,
+    "lib": [
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true
+  },
+  "baseUrl": "src",
+  "paths": {
+    "@api": [
+      "./api/*"
+    ],
+    "@components/*": [
+      "./components/*"
+    ],
+    "@hooks/*": [
+      "./hooks/*"
+    ],
+    "@utils/*": [
+      "./utils/*"
+    ]
+  },
+  "include": ["src", "vite.config.ts","src/components/payment/select/config.json"]
+}

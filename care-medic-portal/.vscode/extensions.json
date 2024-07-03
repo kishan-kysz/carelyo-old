@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "adam-bender.commit-message-editor",
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "steoates.autoimport",
+    "rome.rome"
+  ]
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>failed payment no booking</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <style>
+      :root {
+        --clr-prio: #05a98b;
+      }
+
+      body {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+          sans-serif;
+        line-height: 30px;
+        color: rgb(21, 21, 21);
+        background-color: #076e7e;
+      }
+
+      .template {
+        background-color: #fff;
+        max-width: 600px;
+        margin: 1rem auto;
+        position: relative;
+      }
+
+      .header {
+        padding: 2rem 2rem 0rem 2rem;
+      }
+
+      .body {
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .body-text {
+        align-self: flex-start;
+      }
+
+      .footer {
+        padding: 3rem 2rem;
+        background-color: var(--clr-prio);
+        color: white;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10rem;
+      }
+
+      .bg {
+        position: absolute;
+        z-index: -1;
+        right: 0px;
+        width: 600px;
+      }
+
+      .password {
+        background-color: var(--clr-prio);
+        padding: 1rem 5rem;
+        border-radius: 0.5rem;
+        color: white;
+        margin-bottom: -10px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .social-icons {
+        display: flex;
+        gap: 1rem;
+        margin-top: 4rem;
+      }
+
+      .logo-top {
+        margin-bottom: 1rem;
+      }
+
+      .login {
+        color: var(--clr-prio);
+        text-decoration: underline;
+      }
+
+      .stor {
+        font-weight: 600;
+        font-size: 40px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="template">
+      <div class="header">
+        <img
+          alt=""
+          class="logo-top"
+          src="https://www.carelyo.com/static/media/logo.3750afbe.svg"
+          width="150"
+        />
+
+        <h1>Oh no...</h1>
+      </div>
+
+      <div class="body">
+        <p class="body-text">Your payment failed so no booking was made.</p>
+
+        <a th:href="@{${login_link}}">
+          <p class="password stor">Login</p>
+        </a>
+        <p>
+          Or login<span> <a class="login" th:href="@{${login_link}}">here</a></span>
+        </p>
+
+        <div class="social-icons">
+          <img alt="" src="https://www.carelyo.com/static/media/facebook.2eab3ddd.svg" />
+          <img alt="" src="https://www.carelyo.com/static/media/linkedin.3161e716.svg" />
+          <img alt="" src="https://www.carelyo.com/static/media/twitter.5c279dca.svg" />
+          <img alt="" src="https://www.carelyo.com/static/media/instagram.3c700c8a.svg" />
+        </div>
+      </div>
+
+      <div class="footer">
+        <p class="white">
+          Regards, <br />
+          Carelyo
+        </p>
+        <img
+          alt="Carelyo Logo"
+          src="https://objectstorage.us-sanjose-1.oraclecloud.com/n/axorvolkqwth/b/staticimages/o/logowhiteNewLogoWhite%20(1).png"
+          width="100"
+        />
+      </div>
+    </div>
+  </body>
+</html>

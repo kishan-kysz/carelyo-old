@@ -1,0 +1,89 @@
+.form {
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    height: 440px;
+    margin-top: 30px;
+    max-width: 400px;
+    border-radius: 30px;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) 0 0.625rem 0.9375rem -0.3125rem, rgba(0, 0, 0, 0.04) 0 0.4375rem 0.4375rem -0.3125rem;
+}
+
+
+.form .enterPaymentDetailsText {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+.paymentElement {
+    padding-top: 0.5rem;
+
+}
+
+.submitButton {
+    background-color: #13b887;
+    /* Carelyo-Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1.5em;
+    width: 100%;
+}
+
+.submitButton:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.submitButton:hover {
+    background-color: #0ca678;
+
+}
+
+
+
+
+.paymentMessage {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 0.5em;
+    color: #e02c4f;
+    border: 1px solid #e02c4f;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+
+
+}
+
+.terms {
+  
+    text-align: center;
+    padding: 0.5em;
+
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    height: auto;
+    width: 100%;
+    max-width: 400px;
+}
+
+.hyperlink {
+    color: #0000ee;
+}

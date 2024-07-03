@@ -1,0 +1,108 @@
+{
+  "translation": {
+    "languages": {
+      "english": "English",
+      "french": "Français",
+      "swedish": "Svenska",
+      "swahili": "Kiswahili",
+      "german": "Deutsch",
+      "spanish": "Español",
+      "akan": "Akan",
+      "afrikaans": "Afrikaans",
+      "portuguese": "Português",
+      "hausa": "Hausa",
+      "yoruba": "Yorùbá",
+      "igbo": "Igbo"
+    }
+  },
+  "title": "Titel",
+  "cookies-message": "Hierdie webwerf gebruik koekies om te verseker dat jy die beste ervaring op ons webwerf kry.",
+  "cookies-learn-more": "Leer meer...",
+  "cookies-accept": "Aanvaar alle",
+
+  "footer-all-rights-reserved": "Carelyo. Alle regte voorbehou.",
+  "footer-tos": "Diensvoorwaardes",
+  "footer-and": "en",
+  "footer-privacy-policy": "Privaatheidsbeleid",
+
+  "PageControls-back": "Terug na Aanmelding",
+  "PageControls-Reset-Pass": "Herstel Wagwoord",
+
+  "PhoneInput-phone-label": "Telefoonnommer",
+  "PhoneInput-phone-desc": "Voer asseblief jou telefoonnommer in",
+  "PhoneInput-number-error": "Voer die korrekte telefoonnommer in",
+  "PhoneInput-enter-placeholder": "Voer jou telefoonnommer in bv. +234",
+
+  "login-redirect-admin": "Verwys na die Stelseladministrasie-paneel",
+  "login-redirect-doctor": "Verwys na die Dokter-paneel",
+  "login-redirect-patient": "Verwys na die Pasient-toepassing",
+
+  "login-success": "Aanmelding suksesvol",
+  "login-error": "Aanmelding misluk",
+
+  "login-welcome-header": "Welkom!",
+  "login-description-header": "Het jy nog nie 'n rekening nie? ",
+  "login-createacc-header": " Skep rekening",
+
+  "login-form-email": "E-pos",
+  "login-form-email-placeholder": "e-pos@carelyo.com",
+  "login-form-email-enter": "Voer jou e-pos adres in",
+  "login-form-password": "Wagwoord",
+  "login-form-password-desc": "Voer jou wagwoord in",
+  "login-form-password-placeholder": "Jou wagwoord",
+  "login-form-password-forgot": "Wagwoord vergeet?",
+
+  "login-signin": "Meld aan",
+
+  "forgotpass-onerror-title": "Te veel pogings",
+  "forgotpass-onerror-message": "Kan nie wagwoord tans herstel nie. Probeer later weer.",
+
+  "forgotpass-title": "Wagwoord vergeet?",
+  "forgotpass-title-desc": "Voer jou e-pos in om 'n herstel skakel te ontvang",
+
+  "forgotpass-form-label": "E-pos",
+  "forgotpass-form-placeholder": "e-pos@carelyo.com",
+
+  "forgotpass-response-title": "Wagwoordterugstelling aangevra",
+  "forgotpass-response-info1": "Indien die e-posadres wat u ingevoer het, ooreengestem het met 'n bestaande rekening,",
+  "forgotpass-response-info2": "kontroleer asseblief u e-pos vir instruksies oor wat om hierna te doen.",
+  "forgotpass-login": "Teken aan",
+
+  "newpass-change-success": "Die wagwoord is verander",
+  "newpass-change-error": "Terugstelling het misluk",
+
+  "newpass-form-title": "Stel u wagwoord terug",
+  "newpass-form-desc": "Vul die vorm hieronder in om u wagwoord terug te stel",
+
+  "newpass-form-email-label": "U e-posadres",
+  "newpass-form-email-placeholder": "e-pos@adres.com",
+
+  "newpass-form-password-label": "Nuwe Wagwoord",
+  "newpass-form-password-placeholder": "Nuwe Wagwoord",
+
+  "newpass-form-passconf-label": "Bevestig Wagwoord",
+  "newpass-form-passconf-placeholder": "Bevestig Wagwoord",
+
+  "register-notif-success": "Teken in op u e-pos om u rekening te bevestig",
+  "register-notif-error": "Registrasie het misluk",
+
+  "register-form-header-title": "Skep Rekening",
+  "register-form-header-desc": "Reeds 'n rekening?",
+  "register-form-header-label": "Teken aan",
+
+  "register-form-referral": "U is genooi om by carelyo aan te sluit.",
+  "register-form-enter-details": "Vul asseblief u besonderhede in om 'n rekening te skep.",
+
+  "register-form-email": "E-posadres",
+  "register-form-email-placeholder": "e-pos@carelyo.com",
+  "register-form-email-desc": "Ons stuur u 'n bevestigingse-pos",
+
+  "register-form-referral-label": "Verwysingskode (opsioneel)",
+  "register-form-referral-desc": "Voer 'n verwysingskode in",
+  "register-form-referral-placeholder": "Voer verwysingskode in",
+
+  "register-form-tos-desc": "Deur hierdie opsie aan te vink, bevestig u dat u ons Terme en Dienste gelees, verstaan ​​en daarmee saamstem.",
+  "register-form-tos-accept": "Aanvaar",
+  "register-form-tos-terms": "Terme en Dienste",
+  "register-form-btn": "Sluit aan"
+}

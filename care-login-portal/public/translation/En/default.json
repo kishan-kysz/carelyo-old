@@ -1,0 +1,109 @@
+{
+  "translation": {
+    "languages": {
+      "english": "English",
+      "french": "Français",
+      "swedish": "Svenska",
+      "swahili": "Kiswahili",
+      "german": "Deutsch",
+      "spanish": "Español",
+      "akan": "Akan",
+      "afrikaans": "Afrikaans",
+      "portuguese": "Português",
+      "hausa": "Hausa",
+      "yoruba": "Yorùbá",
+      "igbo": "Igbo"
+    }
+  },
+  "title": "Title",
+  "cookies-message": "This website uses cookies to ensure you get the best experience on our website.",
+  "cookies-learn-more": "Learn more...",
+  "cookies-accept": "Accept all",
+
+  "footer-all-rights-reserved": "Carelyo. All rights reserved.",
+  "footer-tos": "Terms of Service",
+  "footer-and": "and",
+  "footer-privacy-policy": "Privacy Policy",
+
+  "PageControls-back": "Back to Login",
+  "PageControls-Reset-Pass": "Reset Password",
+  "login-account-exists":"You already have a carelyo account Please login with that",
+
+  "PhoneInput-phone-label": "Phone number",
+  "PhoneInput-phone-desc": "Please enter your phone number",
+  "PhoneInput-number-error": "Enter correct phone number",
+  "PhoneInput-enter-placeholder": "Enter your phone number eg. +234",
+
+  "login-redirect-admin": "Redirecting to System Admin Dashboard",
+  "login-redirect-doctor": "Redirecting to Doctor Dashboard",
+  "login-redirect-patient": "Redirecting to Patient Application",
+
+  "login-success": "Login Successful",
+  "login-error": "Login Failed",
+
+  "login-welcome-header": "Welcome!",
+  "login-description-header": "OR",
+  "login-createacc-header": " Create account",
+
+  "login-form-email": "Email",
+  "login-form-email-placeholder": "email@carelyo.com",
+  "login-form-email-enter": "Enter your email address",
+  "login-form-password": "Password",
+  "login-form-password-desc": "Enter your password",
+  "login-form-password-placeholder": "Your password",
+  "login-form-password-forgot": "Forgot password?",
+
+  "login-signin": "Log in",
+
+  "forgotpass-onerror-title": "Too Many Attempts",
+  "forgotpass-onerror-message": "Can not reset password right now. Try again later",
+
+  "forgotpass-title": "Forgot your password?",
+  "forgotpass-title-desc": "Enter your email to get a reset link",
+
+  "forgotpass-form-label": "Email",
+  "forgotpass-form-placeholder": "email@carelyo.com",
+
+  "forgotpass-response-title": "Password Reset Requested",
+  "forgotpass-response-info1": "If the email address you entered matched an existing account,",
+  "forgotpass-response-info2": "please check your email for instructions on what to do next.",
+  "forgotpass-login": "Login",
+
+  "newpass-change-success": "The password has been changed",
+  "newpass-change-error": "Reset failed",
+
+  "newpass-form-title": "Reset your password",
+  "newpass-form-desc": "Fill in the form below to reset your password",
+
+  "newpass-form-email-label": "Your email",
+  "newpass-form-email-placeholder": "email@email.com",
+
+  "newpass-form-password-label": "New Password",
+  "newpass-form-password-placeholder": "New Password",
+
+  "newpass-form-passconf-label": "Confirm Password",
+  "newpass-form-passconf-placeholder": "Confirm Password",
+
+  "register-notif-success": "Please check your email for confirmation",
+  "register-notif-error": "Registration failed",
+
+  "register-form-header-title": "Create Account",
+  "register-form-header-desc": "  Already have an account?",
+  "register-form-header-label": " Log in",
+
+  "register-form-referral": "You have been invited to carelyo.",
+  "register-form-enter-details": "Please enter your details to create an account.",
+
+  "register-form-email": "Email",
+  "register-form-email-placeholder": "email@carelyo.com",
+  "register-form-email-desc": "We will send you a confirmation email",
+
+  "register-form-referral-label": "Referral code (optional)",
+  "register-form-referral-desc": "Enter a referral code",
+  "register-form-referral-placeholder": "Enter referral code",
+
+  "register-form-tos-desc": "By ticking, you are confirming that you have read, understood and agree to our Terms and Services",
+  "register-form-tos-accept": "Accept",
+  "register-form-tos-terms": "Terms and Conditions",
+  "register-form-btn": "Sign up"
+}

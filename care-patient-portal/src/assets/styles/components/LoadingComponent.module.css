@@ -1,0 +1,145 @@
+/* Container for the loading indicators, checkmarks and messages */
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 100%;
+    background-color: transparent;
+
+}
+
+/* Loading container & Spinner */
+.loadingContainer {
+    transform: translateY(5vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 400px;
+    background-color: #FFF;
+    background-size: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0.0625rem 0.1875rem rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05) 0 0.625rem 0.9375rem -0.3125rem, rgba(0, 0, 0, 0.04) 0 0.4375rem 0.4375rem -0.3125rem;
+}
+
+
+.loadingContainer .title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 1.5em;
+    color: #30323f;
+    max-width: 400px;
+}
+
+.loadingContainer .loadingDetails {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 0.5em;
+
+    color: #30323f;
+
+
+
+}
+
+
+.loadingContainer .spinner {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid #f3f3f3;
+    border-top: 10px solid #13b887;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Payment complete */
+.circle {
+    fill: none;
+    /* Initial state */
+    stroke-dasharray: 251.33;
+    stroke-dashoffset: 251.33;
+    animation:
+        strokeCircle 0.6s ease-in-out forwards,
+        /* Stroke animation */
+        fillCircle 0.5s ease-in-out 0.5s forwards,
+        /* Fill animation starts after a delay */
+        scalePulse 0.3s ease-in-out 0.6s forwards;
+    /* Scale animation starts after the stroke animation */
+    transform-origin: center;
+
+}
+
+@keyframes strokeCircle {
+    0% {
+        stroke-dashoffset: 251.2;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fillCircle {
+    0% {
+        fill: none;
+    }
+
+    100% {
+        fill: #13b887;
+        /* Change this to the desired fill color */
+    }
+}
+
+@keyframes scalePulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.checkmark {
+    stroke-dasharray: 251.33;
+    stroke-dashoffset: 251.33;
+    animation: checkmark 0.5s ease-in-out 0.5s forwards;
+    /* This will start at the same time as the circle fill */
+    stroke-linecap: round;
+}
+
+@keyframes checkmark {
+    0% {
+        stroke-dashoffset: 73;
+        opacity: 0;
+    }
+
+    50% {
+        stroke-dashoffset: 0;
+        opacity: 0.7;
+    }
+
+    100% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+}

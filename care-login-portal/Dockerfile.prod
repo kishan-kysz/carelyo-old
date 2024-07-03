@@ -1,0 +1,19 @@
+FROM node:16 as loginportal
+WORKDIR /login
+COPY package*.json .
+RUN yarn install --frozen-lockfile
+COPY . .
+RUN yarn build
+
+#FROM swecon18ab/nginx:latest
+FROM swedcon18com/carelyo:ubuntu-nginx
+# Set working directory to nginx asset directory
+WORKDIR /usr/share/nginx/html
+
+# Copy the build output from the build container
+
+COPY --from=loginportal /login/dist ./
+
+EXPOSE 80
+# Containers run nginx with global directives and daemon off
+ENTRYPOINT ["nginx", "-g", "daemon off;"]

@@ -1,0 +1,118 @@
+name: Create Branch Image
+
+on:
+  repository_dispatch:
+    types: [trigger-login-portal]
+  workflow_dispatch:
+    inputs:
+      target-branch:
+        description: 'Target Branch'
+        required: true
+        default: 'oracle-test'
+      VITE_DOMAIN_VAR:
+        description: 'Value for VITE_DOMAIN_VAR'
+        required: true
+      VITE_CLIENT_URL_VAR:
+        description: 'Value for VITE_CLIENT_URL_VAR'
+        required: true
+      VITE_SYSADMIN_URL_VAR:
+        description: 'Value for VITE_SYSADMIN_URL_VAR'
+        required: true
+      VITE_PATIENT_URL_VAR:
+        description: 'Value for VITE_PATIENT_URL_VAR'
+        required: true
+      VITE_DOCTOR_URL_VAR:
+        description: 'Value for VITE_DOCTOR_URL_VAR'
+        required: true
+      VITE_API_URL_VAR:
+        description: 'Value for VITE_API_URL_VAR'
+        required: true
+      VITE_CARELYO_URL_VAR:
+        description: 'Value for VITE_CARELYO_URL_VAR'
+        required: true
+      VITE_TITLE_VAR:
+        description: 'Value for VITE_CLIENT_URL_VAR'
+        required: true
+      VITE_SLOGAN_VAR:
+        description: 'Value for VITE_SLOGAN_VAR'
+        required: true
+
+#env:
+#  REGISTRY: https://registry.hub.docker.com/v2/
+#  IMAGE_NAME: ${{ github.repository }}
+#  API: api
+#  APP_NAME: logintest
+#  APP_VERSION: logintest-latest
+#  DOMAIN: your-domain.com
+#  PATIENT: patient
+#  DOCTOR: doctor
+
+jobs:
+  build-and-push:
+    runs-on: self-hosted
+    permissions:
+      packages: write
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      #- name: Set up QEMU
+      #  uses: docker/setup-qemu-action@v3
+      #with:
+      #  platforms: arm64,amd64
+
+      # - name: Create env variables
+      #  run: |
+      #    chmod +x ./env.example.sh
+      #    ./env.example.sh
+      #- name: Set up Docker Buildx
+      #  uses: docker/setup-buildx-action@v3
+
+      - name: Check if Docker Buildx builder exists
+        run: |
+          if docker buildx inspect mybuilder &> /dev/null; then
+            echo "Docker Buildx builder 'mybuilder' already exists."
+            exit 0
+          else
+            echo "Docker Buildx builder 'mybuilder' does not exist."
+            exit 1
+          fi
+
+      - name: Create a Docker Buildx builder if it doesn't exist
+        if: ${{ failure() }}
+        run: |
+          docker buildx create --use --name mybuilder
+
+      - name: Build and push
+        id: docker_build
+        uses: docker/build-push-action@v4.0.0
+        with:
+          context: .
+          push: true
+          platforms: linux/arm64
+          tags: swedcon18com/carelyo:care-connect-test-latest
+          file: Dockerfile
+          builder: mybuilder
+          build-args: |
+            PORT_VAR="3122"
+            VITE_DOMAIN_VAR=${{ inputs.VITE_DOMAIN_VAR }}
+            VITE_CLIENT_URL_VAR=${{ inputs.VITE_CLIENT_URL_VAR }}
+            VITE_SYSADMIN_URL_VAR=${{ inputs.VITE_SYSADMIN_URL_VAR }}
+            VITE_PATIENT_URL_VAR=${{ inputs.VITE_PATIENT_URL_VAR }}
+            VITE_DOCTOR_URL_VAR=${{ inputs.VITE_DOCTOR_URL_VAR }}
+            VITE_API_URL_VAR=${{ inputs.VITE_API_URL_VAR }}
+            VITE_CARELYO_URL_VAR=${{ inputs.VITE_CARELYO_URL_VAR }}
+            VITE_TITLE_VAR=${{ inputs.VITE_TITLE_VAR }}
+            VITE_SLOGAN_VAR=${{ inputs.VITE_SLOGAN_VAR }}
+            GENERATE_SOURCEMAPL_VAR=

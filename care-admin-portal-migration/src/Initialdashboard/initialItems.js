@@ -1,0 +1,80 @@
+export const initialItems = [
+	{
+		"i":"stats card1:Registered Doctors : ",
+		"x":0,
+		"y":0,
+		"w":2,
+		"h":1,
+		"minW":2,
+		"minH":1,
+		"value":3,
+		"type":"stats card",
+		"title":"Registered Doctors",
+		"monthlyGoal":"50"
+	},
+	{
+		"i":"stats card2:Total Consultations : ",
+		"x":2,
+		"y":0,
+		"w":2,
+		"h":1,
+		"minW":2,
+		"minH":1,
+		"value":8,
+		"type":"stats card",
+		"title":"Total Consultations",
+		"monthlyGoal":""
+	},
+	{
+		"i":"stats card3:Total Patients : ",
+		"x":4,
+		"y":0,
+		"w":2,
+		"h":1,
+		"minW":2,
+		"minH":1,
+		"value":16,
+		"type":"stats card",
+		"title":"Total Patients",
+		"monthlyGoal":""
+	},
+	{
+		"i":"stats card4:Monthly Revenue : ",
+		"x":6,
+		"y":0,
+		"w":2,
+		"h":1,
+		"minW":2,
+		"minH":1,
+		"value":4000,
+		"type":"stats card",
+		"title":"Monthly Revenue",
+		"monthlyGoal":"1000000"
+	},
+	{
+		"i":"stats card60.5631501708438464:Ongoing Consultations : ",
+		"x":0,
+		"y":0,
+		"w":2,
+		"h":1,
+		"minW":2,
+		"minH":1,
+		"value":0,
+		"type":"stats card",
+		"title":"Ongoing Consultations",
+		"monthlyGoal":""
+	},
+	{
+		"i":"stats card70.6195431326352263:Booked Consultations : ",
+		"x":0,
+		"y":0,
+		"w":2,
+		"h":1,
+		"minW":2,
+		"minH":1,
+		"value":0,
+		"type":"stats card",
+		"title":"Booked Consultations",
+		"monthlyGoal":""
+	}
+];

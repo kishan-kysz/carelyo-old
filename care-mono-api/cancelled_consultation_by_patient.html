@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Cancelled consultation</title>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+<style th:text="${style_sheet}"></style>
+</head>
+<body>
+<div class="template">
+<div class="header">
+
+<img alt class="logo-top" src="https://www.carelyo.com/static/media/logo.3750afbe.svg" width="150">
+
+<h1>Dear <span th:text="${patient_name}"></span>,</h1>
+</div>
+<div class="body">
+<p class="text-body">Your booked consultation has been canceled because you did not show up. No worries you can simply reboot now!<span th:text="${appointment_date}"></span> at <span th:text="${appointment_time}"></span> with
+<span th:text="${doctor_name}"></span> at <span th:text="${clinic_name}"></span> has been
+cancelled due to your failure to attend.</p>
+<p class="text-body">No worries, we have debited your wallet, and you can book again and make use of the money in your wallet to pay for the next consultation. </p>
+<p class="text-body">A amount has been refunded to your Carelyo Wallet:
+<strong class="payment-refund"><span th:text="${amount}"></span></strong>.
+</p>
+<p class="text-body">Thank you for your understanding. <span th:text="${your_name}"></span></p>
+<a th:href="@{${login_link}}">
+<p class="password stor">Book appointment</p>
+</a>
+<p>Or book <span><a class="login" th:href="@{${login_link}}">here</a></span></p>
+<div class="social-icons">
+
+<img alt="Facebook" src="https://www.carelyo.com/static/media/facebook.2eab3ddd.svg">
+<img alt="Linkedin" src="https://www.carelyo.com/static/media/linkedin.3161e716.svg">
+<img alt="Twitter" src="https://www.carelyo.com/static/media/twitter.5c279dca.svg">
+<img alt="Instagram" src="https://www.carelyo.com/static/media/instagram.3c700c8a.svg">
+
+</div>
+</div>
+<div class="footer">
+<p class="white">Regards, <br> Carelyo</p>
+<img alt="Carelyo Logo" src="https://objectstorage.us-sanjose-1.oraclecloud.com/n/axorvolkqwth/b/staticimages/o/logowhiteNewLogoWhite%20(1).png" width="100">
+<div>updated</div>
+</body>
+</html>

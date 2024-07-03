@@ -1,0 +1,108 @@
+{
+  "translation": {
+    "languages": {
+      "english": "English",
+      "french": "Français",
+      "swedish": "Svenska",
+      "swahili": "Kiswahili",
+      "german": "Deutsch",
+      "spanish": "Español",
+      "akan": "Akan",
+      "afrikaans": "Afrikaans",
+      "portuguese": "Português",
+      "hausa": "Hausa",
+      "yoruba": "Yorùbá",
+      "igbo": "Igbo"
+    }
+  },
+  "title": "Título",
+  "cookies-message": "Este site usa cookies para garantir a melhor experiência em nosso site.",
+  "cookies-learn-more": "Saiba mais...",
+  "cookies-accept": "Aceitar tudo",
+
+  "footer-all-rights-reserved": "Carelyo. Todos os direitos reservados.",
+  "footer-tos": "Termos de Serviço",
+  "footer-and": "e",
+  "footer-privacy-policy": "Política de Privacidade",
+
+  "PageControls-back": "Voltar para o Login",
+  "PageControls-Reset-Pass": "Redefinir Senha",
+
+"PhoneInput-phone-label": "Número de telefone",
+"PhoneInput-phone-desc": "Por favor, insira o seu número de telefone",
+"PhoneInput-number-error": "Insira um número de telefone correto" ,
+"PhoneInput-enter-placeholder":"Insira seu número de telefone, ex: +55",
+"login-account-exists": "A conta de usuário já existe",
+"login-redirect-admin": "Redirecionando para o Painel de Administração do Sistema",
+"login-redirect-doctor": "Redirecionando para o Painel do Médico",
+"login-redirect-patient": "Redirecionando para o Aplicativo do Paciente",
+
+  "login-success": "Login efetuado com sucesso",
+  "login-error": "Falha no Login",
+
+  "login-welcome-header": "Bem-vindo!",
+  "login-description-header": "Ainda não tem uma conta? ",
+  "login-createacc-header": " Criar conta",
+
+  "login-form-email": "E-mail",
+  "login-form-email-placeholder": "email@carelyo.com",
+  "login-form-email-enter": "Insira seu endereço de e-mail",
+  "login-form-password": "Senha",
+  "login-form-password-desc": "Insira sua senha",
+  "login-form-password-placeholder": "Sua senha",
+  "login-form-password-forgot": "Esqueceu sua senha?",
+
+  "login-signin": "Entrar",
+
+  "forgotpass-onerror-title": "Muitas tentativas",
+  "forgotpass-onerror-message": "Não é possível redefinir a senha no momento. Tente novamente mais tarde",
+
+  "forgotpass-title": "Esqueceu sua senha?",
+  "forgotpass-title-desc": "Digite seu e-mail para obter um link de redefinição",
+
+  "forgotpass-form-label": "E-mail",
+  "forgotpass-form-placeholder": "email@carelyo.com",
+
+  "forgotpass-response-title": "Solicitação de redefinição de senha",
+  "forgotpass-response-info1": "Se o endereço de e-mail que você digitou correspondia a uma conta existente,",
+  "forgotpass-response-info2": "verifique seu e-mail para obter instruções sobre o que fazer a seguir.",
+  "forgotpass-login": "Entrar",
+
+  "newpass-change-success": "A senha foi alterada com sucesso",
+  "newpass-change-error": "Falha na redefinição",
+
+  "newpass-form-title": "Redefinir sua senha",
+  "newpass-form-desc": "Preencha o formulário abaixo para redefinir sua senha",
+
+  "newpass-form-email-label": "Seu email",
+  "newpass-form-email-placeholder": "email@exemplo.com",
+
+  "newpass-form-password-label": "Nova senha",
+  "newpass-form-password-placeholder": "Nova senha",
+
+  "newpass-form-passconf-label": "Confirmar senha",
+  "newpass-form-passconf-placeholder": "Confirmar senha",
+
+  "register-notif-success": "Por favor, verifique seu email para confirmação",
+  "register-notif-error": "Falha no registro",
+
+  "register-form-header-title": "Criar conta",
+  "register-form-header-desc": "Já tem uma conta?",
+  "register-form-header-label": "Entre",
+
+  "register-form-referral": "Você foi convidado para o Carelyo.",
+  "register-form-enter-details": "Por favor, insira seus dados para criar uma conta.",
+
+  "register-form-email": "Email",
+  "register-form-email-placeholder": "email@carelyo.com",
+  "register-form-email-desc": "Enviaremos um email de confirmação",
+
+  "register-form-referral-label": "Código de indicação (opcional)",
+  "register-form-referral-desc": "Insira um código de indicação",
+  "register-form-referral-placeholder": "Insira o código de indicação",
+
+  "register-form-tos-desc": "Ao marcar esta opção, você confirma que leu, entendeu e concorda com nossos Termos de Serviço",
+  "register-form-tos-accept": "Aceitar",
+  "register-form-tos-terms": "Termos de Serviço",
+  "register-form-btn": "Cadastrar"
+}

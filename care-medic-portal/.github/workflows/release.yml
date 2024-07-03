@@ -1,0 +1,34 @@
+name: Doctor Release
+
+on:
+  push:
+    branches: ['main']
+    paths-ignore:
+      - 'tests/**'
+      - '*lint**'
+      - '.prettier*'
+      - '.eslint*'
+      - '.github/**'
+      - 'rome.json'
+      - '**.yml'
+      - '**.md'
+      - 'package.*'
+      - 'yarn.lock'
+      - '**.example'
+      - '**.config.js'
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: git config
+        run: |
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+      - run: yarn install --frozen-lockfile
+      - run: yarn release
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

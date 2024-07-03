@@ -1,0 +1,108 @@
+{
+  "translation": {
+    "languages": {
+      "english": "English",
+      "french": "Français",
+      "swedish": "Svenska",
+      "swahili": "Kiswahili",
+      "german": "Deutsch",
+      "spanish": "Español",
+      "akan": "Akan",
+      "afrikaans": "Afrikaans",
+      "portuguese": "Português",
+      "hausa": "Hausa",
+      "yoruba": "Yorùbá",
+      "igbo": "Igbo"
+    }
+  },
+  "title": "Kichwa",
+  "cookies-message": "Tovuti hii hutumia vidakuzi kuhakikisha unapata uzoefu bora kwenye tovuti yetu.",
+  "cookies-learn-more": "Jifunze zaidi...",
+  "cookies-accept": "Kubali yote",
+
+  "footer-all-rights-reserved": "Carelyo. Haki zote zimehifadhiwa.",
+  "footer-tos": "Masharti ya Huduma",
+  "footer-and": "na",
+  "footer-privacy-policy": "Sera ya Faragha",
+
+  "PageControls-back": "Rudi kwenye kuingia",
+  "PageControls-Reset-Pass": "Rudisha Nenosiri",
+
+    "PhoneInput-phone-label": "Namba ya Simu",
+    "PhoneInput-phone-desc": "Tafadhali ingiza namba yako ya simu",
+    "PhoneInput-number-error": "Ingiza namba ya simu sahihi",
+    "PhoneInput-enter-placeholder": "Ingiza namba yako ya simu, mfano +234",
+   
+    "login-redirect-admin": "Kuelekeza kwenye Dashibodi ya Mfumo wa Msimamizi",
+    "login-redirect-doctor": "Kuelekeza kwenye Dashibodi ya Daktari",
+    "login-redirect-patient": "Kuelekeza kwenye Programu ya Mgonjwa",
+    "login-account-exists": "Akaunti ya mtumiaji tayari ipo",
+    "login-success": "Uingiaji umefanikiwa",
+    "login-error": "Uingiaji umeshindikana",
+    
+    "login-welcome-header": "Karibu!",
+    "login-description-header": "Huna akaunti bado? ",
+    "login-createacc-header": " Tengeneza akaunti",
+
+  "login-form-email": "Barua pepe",
+  "login-form-email-placeholder": "barua@carelyo.com",
+  "login-form-email-enter": "Ingiza anwani yako ya barua pepe",
+  "login-form-password": "Nenosiri",
+  "login-form-password-desc": "Ingiza nenosiri lako",
+  "login-form-password-placeholder": "Nenosiri yako",
+  "login-form-password-forgot": "Umesahau nenosiri?",
+
+  "login-signin": "Ingia",
+
+  "forgotpass-onerror-title": "Jaribu tena baadaye",
+  "forgotpass-onerror-message": "Haiwezekani kurejesha nenosiri kwa sasa. Jaribu tena baadaye",
+
+  "forgotpass-title": "Umesahau nenosiri lako?",
+  "forgotpass-title-desc": "Ingiza anwani yako ya barua pepe kupata kiunga cha kurejesha",
+
+  "forgotpass-form-label": "Barua pepe",
+  "forgotpass-form-placeholder": "barua@carelyo.com",
+
+  "forgotpass-response-title": "Ombi la kurejesha nenosiri limetumwa",
+  "forgotpass-response-info1": "Ikiwa anwani ya barua pepe uliyoingiza inalingana na akaunti iliyopo,",
+  "forgotpass-response-info2": "tutakutumia barua pepe na maelekezo ya kufuata.",
+  "forgotpass-login": "Ingia",
+
+  "newpass-change-success": "Nenosiri limerekebishwa",
+  "newpass-change-error": "Kushindwa kwa kurejesha",
+
+  "newpass-form-title": "Rekebisha nenosiri lako",
+  "newpass-form-desc": "Jaza fomu hapa chini ili kurejesha nenosiri lako",
+
+  "newpass-form-email-label": "Barua pepe yako",
+  "newpass-form-email-placeholder": "barua@barua.com",
+
+  "newpass-form-password-label": "Nenosiri Jipya",
+  "newpass-form-password-placeholder": "Nenosiri Jipya",
+
+  "newpass-form-passconf-label": "Thibitisha Nenosiri",
+  "newpass-form-passconf-placeholder": "Thibitisha Nenosiri",
+
+  "register-notif-success": "Tafadhali angalia barua pepe yako kwa uthibitisho",
+  "register-notif-error": "Usajili umeshindwa",
+
+  "register-form-header-title": "Tengeneza Akaunti",
+  "register-form-header-desc": " Una akaunti?",
+  "register-form-header-label": " Ingia",
+
+  "register-form-referral": "Umekaribishwa kwenye carelyo.",
+  "register-form-enter-details": "Tafadhali ingiza maelezo yako kuunda akaunti.",
+
+  "register-form-email": "Barua pepe",
+  "register-form-email-placeholder": "barua@carelyo.com",
+  "register-form-email-desc": "Tutakutumia barua pepe ya uthibitisho",
+
+  "register-form-referral-label": "Kod ya Rufaa (hiari)",
+  "register-form-referral-desc": "Ingiza kod ya rufaa",
+  "register-form-referral-placeholder": "Ingiza kod ya rufaa",
+
+  "register-form-tos-desc": "Kwa kubofya, unathibitisha kuwa umesoma, kuelewa na kukubaliana na Masharti na Huduma zetu",
+  "register-form-tos-accept": "Kubali",
+  "register-form-tos-terms": "Masharti na Huduma",
+  "register-form-btn": "Jiandikishe"
+}

@@ -1,0 +1,108 @@
+{
+  "translation": {
+    "languages": {
+      "english": "English",
+      "french": "Français",
+      "swedish": "Svenska",
+      "swahili": "Kiswahili",
+      "german": "Deutsch",
+      "spanish": "Español",
+      "akan": "Akan",
+      "afrikaans": "Afrikaans",
+      "portuguese": "Português",
+      "hausa": "Hausa",
+      "yoruba": "Yorùbá",
+      "igbo": "Igbo"
+    }
+  },
+  "title": "Titilẹ",
+  "cookies-message": "Leyin ti o ba ti nṣe rẹ ti o jẹ ki o le ni aseyori pupo ni ipalẹ yi wa.",
+  "cookies-learn-more": "Kini o fẹ gan?",
+  "cookies-accept": "Gba gbogbo wa",
+
+  "footer-all-rights-reserved": "Carelyo. gbogbo awọn iṣẹ ni tiwa.",
+  "footer-tos": "Iru aṣẹ",
+  "footer-and": "ati",
+  "footer-privacy-policy": "Iru iranlọwọ",
+
+  "PageControls-back": "Pada si Ijọba",
+  "PageControls-Reset-Pass": "Tun araṣeṣẹ",
+
+  "PhoneInput-phone-label": "Nọmba ilọsiwaju",
+  "PhoneInput-phone-desc": "Jọwọ fipamọ nọmba foonu rẹ",
+  "PhoneInput-number-error": "Fẹẹrọ nọmba foonu ti o tẹlẹ",
+  "PhoneInput-enter-placeholder": "Fipamọ nọmba foonu rẹ ẹ.g. +234",
+
+  "login-redirect-admin": "Nilo si Dashboard System Admin",
+  "login-redirect-doctor": "Nilo si Dashboard Doctor",
+  "login-redirect-patient": "Nilo si Iṣẹ Apaara Pẹlu",
+
+  "login-success": "Ẹ se lẹyin ti o ba ti ṣe idanwo",
+  "login-error": "O gbodo se idanwo",
+
+"login-welcome-header": "Kaabo!",
+"login-description-header": "O kere si iṣẹṣe kan? ",
+"login-createacc-header": "Ṣẹda iṣẹṣe",
+"login-account-exists": "Nọmbà ẹrọ ọmọde ti ṣẹlẹ níyọ",
+"login-form-email": "Imejọ",
+"login-form-email-placeholder": "imejọ@carelyo.com",
+"login-form-email-enter": "Fipamọ adirẹsi imejọ rẹ",
+"login-form-password": "Ọrọigbaniwọle",
+"login-form-password-desc": "Fipamo ọrọigbaniwọle rẹ",
+"login-form-password-placeholder": "Ile-ọrọ rẹ",
+"login-form-password-forgot": "Se iṣẹju ọrọigbaniwọle?",
+
+  "login-signin": "Kọ si",
+
+  "forgotpass-onerror-title": "Owó nla wa",
+  "forgotpass-onerror-message": "Kò le wá ó sọ ohun èrò tí a yó fẹ rọpaasọ bayi. Ẹ jọwọ pada sílẹ.",
+
+  "forgotpass-title": "Ṣe o fẹ irọpaasọ rẹ?",
+  "forgotpass-title-desc": "Firanṣẹ email rẹ lati fi asopọ irọpaasọ gbe",
+
+  "forgotpass-form-label": "Imèl",
+  "forgotpass-form-placeholder": "imèl@carelyo.com",
+
+  "forgotpass-response-title": "Ibi iṣẹ rọpaasọ a ti wá nínú",
+  "forgotpass-response-info1": "Bí o bá ti ṣe firanṣẹ imèl tí o fẹ rọpaasọ rẹ sii ní ayé,",
+  "forgotpass-response-info2": "jọwọ ṣe àròsọ kiri ní ibi imèl rẹ níbi ti o le ṣe ayẹ. ",
+  "forgotpass-login": "Lọgìn",
+
+  "newpass-change-success": "Ìròpaasọ ti ṣe fún wa",
+  "newpass-change-error": "Ìtọ́kasi rọpaasọ kò ṣe yìí",
+
+  "newpass-form-title": "Fi ìrọpaasọ rẹ pada",
+  "newpass-form-desc": "Tọdọ yiyọ fún fọọmu lọ bẹẹlu lati fi ìrọpaasọ rẹ pada",
+
+  "newpass-form-email-label": "Imèl rẹ",
+  "newpass-form-email-placeholder": "imèl@imèl.com",
+
+  "newpass-form-password-label": "Ìrọpaasọ Tuntun",
+  "newpass-form-password-placeholder": "Ìrọpaasọ Tuntun",
+
+  "newpass-form-passconf-label": "Ṣiṣẹda Ìrọpaasọ",
+  "newpass-form-passconf-placeholder": "Ṣiṣẹda Ìrọpaasọ",
+
+  "register-notif-success": "Jọwọ ṣe àròsọ kiri ní ibi imèl rẹ fún iṣẹ rẹ tí o ti ṣe",
+  "register-notif-error": "Rejístrẹẹṣọ kò ṣe yìí",
+
+  "register-form-header-title": "Ṣẹyẹra iṣẹ",
+  "register-form-header-desc": "Ṣé o ti nṣe ìṣẹ kan tẹlẹ?",
+  "register-form-header-label": " Lọgìn",
+
+  "register-form-referral": "O ti wà ní Carelyo",
+  "register-form-enter-details": "Jọwọ tẹ olumulo rẹ lati ṣẹyẹra iṣẹ kan.",
+
+  "register-form-email": "Iméèlì",
+  "register-form-email-placeholder": "imeeli@carelyo.com",
+  "register-form-email-desc": "A ìmèlì ìdìbò yìo fi fún è",
+
+  "register-form-referral-label": "Àkóónú ètò àgbèrò (titan)",
+  "register-form-referral-desc": "Fún ìdíyẹ tí ń tún gba titan è",
+  "register-form-referral-placeholder": "Fún ìdíyẹ tí ń tún gba titan è",
+
+  "register-form-tos-desc": "Nípa ti ó bá fi tẹlé, o máa ba fẹsẹ̀kùn pe o ṣe ri, ti o fẹ́ ati ti o gba aaye ati ifiranṣẹ wa",
+  "register-form-tos-accept": "Kí o ṣe ń lọ sílẹ̀",
+  "register-form-tos-terms": "Aaye ati Ifiranṣẹ",
+  "register-form-btn": "Sígnup"
+}

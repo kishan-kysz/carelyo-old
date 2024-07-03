@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>You got an invitation</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <style>
+      :root {
+        --clr-prio: #05a98b;
+      }
+
+      body {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+          sans-serif;
+        line-height: 30px;
+        color: rgb(21, 21, 21);
+        background-color: #076e7e;
+      }
+
+      .body {
+        padding: 2rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .template {
+        background-color: #fff;
+        max-width: 600px;
+        margin: 1rem auto;
+        position: relative;
+      }
+
+      .header {
+        padding: 2rem 2rem 0rem 2rem;
+      }
+
+      .footer {
+        padding: 3rem 2rem;
+        background-color: var(--clr-prio);
+        color: white;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .bg {
+        position: absolute;
+        z-index: -1;
+        right: 0px;
+        width: 600px;
+      }
+
+      .password {
+        background-color: var(--clr-prio);
+        padding: 1rem 2rem;
+        border-radius: 0.5rem;
+        color: white;
+        margin-bottom: -10px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      .social-icons {
+        display: flex;
+        gap: 1rem;
+        margin-top: 4rem;
+      }
+
+      .logo-top {
+        margin-bottom: 1rem;
+      }
+
+      .login {
+        color: var(--clr-prio);
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      .stor {
+        font-weight: 600;
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="template">
+      <div class="header">
+        <img
+          alt=""
+          class="logo-top"
+          src="https://www.carelyo.com/static/media/logo.3750afbe.svg"
+          width="150"
+        />
+
+        <h1>We invite you to join the Carelyo family!</h1>
+
+        <p>
+          One of your friends has suggested you as a new member of the Carelyo family. Therefore do
+          we want to welcome you with a gift of N300 on your first visit. 🎉
+        </p>
+
+        <p>
+          As a member, you have access to everything related to your health. <br />
+          With just a few clicks you get in touch with a nurse or a doctor.
+        </p>
+      </div>
+
+      <div class="body">
+        <p>Use this code to get N300 on your next visit!</p>
+        <span class="stor"> <span th:text="${referall_code}"></span></span>
+
+        <a href="@{${login_link}}"><p class="password stor">Create account</p></a>
+        <p>Or create account <a class="login" th:href="${register_link}">here.</a></p>
+
+        <div class="social-icons">
+          <img alt="" src="https://www.carelyo.com/static/media/facebook.2eab3ddd.svg" />
+          <img alt="" src="https://www.carelyo.com/static/media/linkedin.3161e716.svg" />
+          <img alt="" src="https://www.carelyo.com/static/media/twitter.5c279dca.svg" />
+          <img alt="" src="https://www.carelyo.com/static/media/instagram.3c700c8a.svg" />
+        </div>
+      </div>
+
+      <div class="footer">
+        <p class="white">
+          Regards, <br />
+          Carelyo
+        </p>
+
+        <img
+          alt="Carelyo Logo"
+          src="https://objectstorage.us-sanjose-1.oraclecloud.com/n/axorvolkqwth/b/staticimages/o/logowhiteNewLogoWhite%20(1).png"
+          width="100"
+        />
+      </div>
+    </div>
+  </body>
+</html>

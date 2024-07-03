@@ -1,0 +1,108 @@
+{
+  "translation": {
+    "languages": {
+      "english": "English",
+      "french": "Français",
+      "swedish": "Svenska",
+      "swahili": "Kiswahili",
+      "german": "Deutsch",
+      "spanish": "Español",
+      "akan": "Akan",
+      "afrikaans": "Afrikaans",
+      "portuguese": "Português",
+      "hausa": "Hausa",
+      "yoruba": "Yorùbá",
+      "igbo": "Igbo"
+    }
+  },
+  "title": "Título",
+  "cookies-message": "Este sitio web utiliza cookies para garantizar que obtengas la mejor experiencia en nuestro sitio web.",
+  "cookies-learn-more": "Aprende más...",
+  "cookies-accept": "Aceptar todo",
+
+  "footer-all-rights-reserved": "Carelyo. Todos los derechos reservados.",
+  "footer-tos": "Términos de servicio",
+  "footer-and": "y",
+  "footer-privacy-policy": "Política de privacidad",
+
+"PageControls-back": "Volver a iniciar sesión",
+"PageControls-Reset-Pass": "Restablecer la contraseña",
+"login-account-exists": "La cuenta de usuario ya existe",
+"PhoneInput-phone-label": "Número de teléfono",
+"PhoneInput-phone-desc": "Por favor, introduce tu número de teléfono",
+"PhoneInput-number-error": "Introduce un número de teléfono correcto",
+"PhoneInput-enter-placeholder": "Introduce tu número de teléfono, p. ej. +34",
+
+  "login-redirect-admin": "Redirigiendo al Panel de administración del sistema",
+  "login-redirect-doctor": "Redirigiendo al Panel de médicos",
+  "login-redirect-patient": "Redirigiendo a la Aplicación para pacientes",
+
+  "login-success": "Inicio de sesión exitoso",
+  "login-error": "Inicio de sesión fallido",
+
+  "login-welcome-header": "¡Bienvenido!",
+  "login-description-header": "¿No tienes una cuenta aún? ",
+  "login-createacc-header": "Crear cuenta",
+
+  "login-form-email": "Correo electrónico",
+  "login-form-email-placeholder": "correo@carelyo.com",
+  "login-form-email-enter": "Introduce tu correo electrónico",
+  "login-form-password": "Contraseña",
+  "login-form-password-desc": "Introduce tu contraseña",
+  "login-form-password-placeholder": "Tu contraseña",
+  "login-form-password-forgot": "¿Olvidaste tu contraseña?",
+
+  "login-signin": "Iniciar sesión",
+
+  "forgotpass-onerror-title": "Demasiados intentos",
+  "forgotpass-onerror-message": "No se puede restablecer la contraseña en este momento. Inténtalo de nuevo más tarde",
+
+  "forgotpass-title": "¿Olvidaste tu contraseña?",
+  "forgotpass-title-desc": "Introduce tu correo electrónico para obtener un enlace de restablecimiento",
+
+  "forgotpass-form-label": "Correo electrónico",
+  "forgotpass-form-placeholder": "correo@carelyo.com",
+
+  "forgotpass-response-title": "Solicitud de restablecimiento de contraseña",
+  "forgotpass-response-info1": "Si la dirección de correo electrónico que ingresó coincide con una cuenta existente,",
+  "forgotpass-response-info2": "por favor revise su correo electrónico para obtener instrucciones sobre qué hacer a continuación.",
+  "forgotpass-login": "Iniciar sesión",
+
+  "newpass-change-success": "La contraseña ha sido cambiada",
+  "newpass-change-error": "Error al restablecer",
+
+  "newpass-form-title": "Restablecer su contraseña",
+  "newpass-form-desc": "Complete el siguiente formulario para restablecer su contraseña",
+
+  "newpass-form-email-label": "Su correo electrónico",
+  "newpass-form-email-placeholder": "correo@correo.com",
+
+  "newpass-form-password-label": "Nueva contraseña",
+  "newpass-form-password-placeholder": "Nueva contraseña",
+
+  "newpass-form-passconf-label": "Confirmar contraseña",
+  "newpass-form-passconf-placeholder": "Confirmar contraseña",
+
+  "register-notif-success": "Por favor revise su correo electrónico para confirmar su cuenta",
+  "register-notif-error": "Error en el registro",
+
+  "register-form-header-title": "Crear cuenta",
+  "register-form-header-desc": "¿Ya tienes una cuenta?",
+  "register-form-header-label": " Iniciar sesión",
+
+  "register-form-referral": "Ha sido invitado a carelyo.",
+  "register-form-enter-details": "Por favor, ingrese sus detalles para crear una cuenta.",
+
+  "register-form-email": "Correo electrónico",
+  "register-form-email-placeholder": "correo@carelyo.com",
+  "register-form-email-desc": "Le enviaremos un correo electrónico de confirmación",
+
+  "register-form-referral-label": "Código de referencia (opcional)",
+  "register-form-referral-desc": "Ingrese un código de referencia",
+  "register-form-referral-placeholder": "Ingrese un código de referencia",
+
+  "register-form-tos-desc": "Al marcar esta casilla, confirma que ha leído, comprendido y aceptado nuestros Términos y servicios",
+  "register-form-tos-accept": "Aceptar",
+  "register-form-tos-terms": "Términos y servicios",
+  "register-form-btn": "Registrarse"
+}

@@ -1,0 +1,99 @@
+name: Staging Image Build
+
+on:
+  push:
+    branches:
+      - develop
+
+jobs:
+  delete-old-image:
+    runs-on: self-hosted
+    name: deleting old images
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Build Docker image for cleanup
+        run: docker build -t imageremover -f Dockerfile.imageremover .
+
+      - name: Run Docker container to delete older versions
+        run: docker run imageremover
+
+  create-new-images:
+    needs: delete-old-image
+    runs-on: self-hosted
+    steps:
+      - uses: actions/labeler@v4
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: install yarn
+        uses: actions/setup-node@v4
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+      - run: |
+          npm install --global yarn
+
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v2
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build and push amd64 image
+        uses: docker/build-push-action@v4.0.0
+        with:
+          context: .
+          file: Dockerfile
+          platforms: linux/amd64
+          push: true
+          tags: |
+            swedcon18com/carelyo:care-login-portal-pillmart-latest
+          cache-from: type=registry,ref=swedcon18com/carelyo:care-login-portal-pillmart-prod-latest
+          cache-to: type=inline
+
+      - name: Build and push arm64 image
+        uses: docker/build-push-action@v4.0.0
+        with:
+          context: .
+          file: Dockerfile
+          platforms: linux/arm64
+          push: true
+          tags: |
+            swedcon18com/carelyo:care-login-portal-pillmart-latest
+          cache-from: type=registry,ref=swedcon18com/carelyo:care-login-portal-pillmart-prod-latest
+          cache-to: type=inline
+
+  release:
+    runs-on: self-hosted
+    needs: create-new-images
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Delete Older Versions of Images
+        run: |
+          docker build -t imageremover -f Dockerfile.imageremover .
+          docker run imageremover
+
+      - name: Release
+        run: echo "Creating a release..."

@@ -1,0 +1,3 @@
+[submodule "src/main/resources/records"]
+	path = src/main/resources/records
+	url = https://github.com/Carelyo/records.git

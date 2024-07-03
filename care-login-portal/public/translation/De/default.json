@@ -1,0 +1,108 @@
+{
+  "translation": {
+    "languages": {
+      "english": "English",
+      "french": "Français",
+      "swedish": "Svenska",
+      "swahili": "Kiswahili",
+      "german": "Deutsch",
+      "spanish": "Español",
+      "akan": "Akan",
+      "afrikaans": "Afrikaans",
+      "portuguese": "Português",
+      "hausa": "Hausa",
+      "yoruba": "Yorùbá",
+      "igbo": "Igbo"
+    }
+  },
+  "title": "Titel",
+  "cookies-message": "Diese Website verwendet Cookies, um sicherzustellen, dass Sie die beste Erfahrung auf unserer Website erhalten.",
+  "cookies-learn-more": "Mehr erfahren...",
+  "cookies-accept": "Alle akzeptieren",
+
+  "footer-all-rights-reserved": "Carelyo. Alle Rechte vorbehalten.",
+  "footer-tos": "Nutzungsbedingungen",
+  "footer-and": "und",
+  "footer-privacy-policy": "Datenschutzerklärung",
+
+  "PageControls-back": "Zurück zur Anmeldung",
+  "PageControls-Reset-Pass": "Passwort zurücksetzen",
+
+  "PhoneInput-phone-label": "Telefonnummer",
+  "PhoneInput-phone-desc": "Bitte geben Sie Ihre Telefonnummer ein",
+  "PhoneInput-number-error": "Geben Sie eine korrekte Telefonnummer ein",
+  "PhoneInput-enter-placeholder": "Geben Sie Ihre Telefonnummer ein, z.B. +234",
+
+  "login-redirect-admin": "Weiterleitung zum System Admin Dashboard",
+  "login-redirect-doctor": "Weiterleitung zum Arzt-Dashboard",
+  "login-redirect-patient": "Weiterleitung zur Patienten-Anwendung",
+
+"login-success": "Anmeldung erfolgreich",
+"login-error": "Anmeldung fehlgeschlagen",
+"login-account-exists": "Benutzerkonto existiert bereits",
+"login-welcome-header": "Willkommen!",
+"login-description-header": "Sie haben noch kein Konto? ",
+"login-createacc-header": " Konto erstellen",
+
+  "login-form-email": "E-Mail",
+  "login-form-email-placeholder": "email@carelyo.com",
+  "login-form-email-enter": "Geben Sie Ihre E-Mail-Adresse ein",
+  "login-form-password": "Passwort",
+  "login-form-password-desc": "Geben Sie Ihr Passwort ein",
+  "login-form-password-placeholder": "Ihr Passwort",
+  "login-form-password-forgot": "Passwort vergessen?",
+
+  "login-signin": "Anmelden",
+
+  "forgotpass-onerror-title": "Zu viele Versuche",
+  "forgotpass-onerror-message": "Passwort kann derzeit nicht zurückgesetzt werden. Versuchen Sie es später erneut",
+
+  "forgotpass-title": "Passwort vergessen?",
+  "forgotpass-title-desc": "Geben Sie Ihre E-Mail-Adresse ein, um einen Reset-Link zu erhalten",
+
+  "forgotpass-form-label": "E-Mail",
+  "forgotpass-form-placeholder": "email@carelyo.com",
+
+  "forgotpass-response-title": "Passwort zurücksetzen angefordert",
+  "forgotpass-response-info1": "Wenn die von Ihnen eingegebene E-Mail-Adresse mit einem vorhandenen Konto übereinstimmte,",
+  "forgotpass-response-info2": "prüfen Sie bitte Ihre E-Mails für Anweisungen, was als nächstes zu tun ist.",
+  "forgotpass-login": "Anmelden",
+
+  "newpass-change-success": "Das Passwort wurde geändert",
+  "newpass-change-error": "Zurücksetzung fehlgeschlagen",
+
+  "newpass-form-title": "Setzen Sie Ihr Passwort zurück",
+  "newpass-form-desc": "Füllen Sie das folgende Formular aus, um Ihr Passwort zurückzusetzen",
+
+  "newpass-form-email-label": "Ihre E-Mail",
+  "newpass-form-email-placeholder": "email@email.com",
+
+  "newpass-form-password-label": "Neues Passwort",
+  "newpass-form-password-placeholder": "Neues Passwort",
+
+  "newpass-form-passconf-label": "Passwort bestätigen",
+  "newpass-form-passconf-placeholder": "Passwort bestätigen",
+
+  "register-notif-success": "Bitte überprüfen Sie Ihre E-Mail für die Bestätigung",
+  "register-notif-error": "Registrierung fehlgeschlagen",
+
+  "register-form-header-title": "Konto erstellen",
+  "register-form-header-desc": "Bereits ein Konto?",
+  "register-form-header-label": "Anmelden",
+
+  "register-form-referral": "Sie wurden zu Carelyo eingeladen.",
+  "register-form-enter-details": "Bitte geben Sie Ihre Daten ein, um ein Konto zu erstellen.",
+
+  "register-form-email": "E-Mail",
+  "register-form-email-placeholder": "email@carelyo.com",
+  "register-form-email-desc": "Wir senden Ihnen eine Bestätigungs-E-Mail",
+
+  "register-form-referral-label": "Empfehlungscode (optional)",
+  "register-form-referral-desc": "Geben Sie einen Empfehlungscode ein",
+  "register-form-referral-placeholder": "Empfehlungscode eingeben",
+
+  "register-form-tos-desc": "Durch Ankreuzen bestätigen Sie, dass Sie unsere Geschäftsbedingungen gelesen, verstanden und akzeptiert haben",
+  "register-form-tos-accept": "Akzeptieren",
+  "register-form-tos-terms": "Geschäftsbedingungen",
+  "register-form-btn": "Registrieren"
+}

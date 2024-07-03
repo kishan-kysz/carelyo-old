@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Wallet",
+        "color":"#13b887",
+        "icon":"/assets/logo.svg"
+    },
+    {
+        "name":"Paystack",
+        "color":"#09A5DB",
+        "icon":"/assets/payment/icon/paystack-logos-idbJzlxG2w.svg"
+    },
+    {
+        "name":"Stripe",
+        "color":"#5433FF",
+        "icon":"/assets/payment/icon/stripe.png"
+    },
+    {
+        "name":"Paypal",
+        "color":"#003087",
+        "icon":"/assets/payment/icon/paypal-logos-idojSflDNj.svg"
+    }
+]

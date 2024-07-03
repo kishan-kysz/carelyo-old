@@ -1,0 +1,65 @@
+name: Create Branch Image
+
+on:
+  workflow_dispatch:
+    inputs:
+      target-branch:
+        description: 'Target Branch'
+        required: true
+        default: 'develop'
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  build-and-push:
+    runs-on: self-hosted
+    permissions:
+      packages: write
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Log in to the Container registry
+        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u $ --password-stdin
+
+      - name: Extract metadata (tags, labels) for Docker
+        id: meta
+        uses: docker/metadata-action@9ec57ed1fcdbf14dcef7dfbe97b2010124a938b7
+        with:
+          images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+
+      - name: Build and push Docker image
+        uses: docker/build-push-action@f2a1d5e99d037542a71f64918e516c093c6f3fc4
+        with:
+          context: .
+          push: true
+          tags: ${{ steps.meta.outputs.tags }}
+          labels: ${{ steps.meta.outputs.labels }}
+
+  delete-old-images:
+    runs-on: self-hosted
+    needs: [build-and-push]
+    steps:
+      - name: Prune
+        uses: vlaurin/action-ghcr-prune@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          organization: Carelyo
+          container: doctorui
+          dry-run: flase # Dry-run first, then change to `false`
+          keep-younger-than: 0 # days
+          keep-last: 1
+          prune-untagged: true
+
+  cleanup:
+    runs-on: ubuntu-latest
+    needs: [build-and-push, delete-old-images] # Wait for 'deploy' job to finish
+
+    steps:
+      - name: Cleanup resources
+        uses: colpal/actions-clean@v1
+        if: ${{ always() }}

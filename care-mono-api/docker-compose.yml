@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+
+  maildev:
+    image: maildev/maildev
+    restart: always
+    environment:
+      - TZ=Asia/Shanghai
+      - MAILDEV_WEB_USER=admin
+      - MAILDEV_WEB_PASS=password
+      - MAILDEV_SMTP_PORT=587
+      - MAILDEV_WEB_PORT=1080
+      - MAILDEV_INCOMING_USER=admin@local.com
+      - MAILDEV_INCOMING_PASS=password
+    ports:
+      - "1080:1080"
+      - "587:587"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "1m"

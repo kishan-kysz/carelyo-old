@@ -1,0 +1,184 @@
+{
+	"mantine": {
+		"global": {
+			"fontFamily": "'Poppins', sans-serif",
+			"iconSize": "18"
+		},
+		"title": {
+			"fontSize": "1.3rem",
+			"fontWeight": "700",
+			"color": "#333333",
+			"cost": {
+				"fontSize": "0.95rem"
+			},
+			"sm_cost_title": {
+				"fontSize": "0.2rem"
+			},
+			"smallcost": {
+				"fontSize": "0.5rem"
+			},
+			"heading": {
+				"fontSize": "1.6rem",
+				"color": "#333333",
+				"subheading": {
+					"fontSize": "1.5rem",
+					"fontWeight": "600"
+				},
+				"welcome": {
+					"color": "#05a98b"
+				}
+			}
+		},
+		"logocolor": {
+			"color": "#05a98b"
+		},
+		"padlock": {
+			"color": "#05a98b"
+		},
+		"text": {
+			"color": "#333333",
+			"fontSize": "1.25rem",
+			"fontWeight": "500",
+			"payment": {
+				"color": "#05a98b",
+				"fontSize": "1.1rem"
+			},
+			"label": {
+				"fontSize": "1.3rem",
+				"fontWeight": "500",
+				"color": "#333333",
+				"small": {
+					"fontSize": "1.2rem",
+					"fontWeight": "500",
+					"color": "#333333"
+				},
+				"date": {
+					"fontSize": "1.0rem",
+					"color": "#333333",
+					"fontWeight": "500"
+				},
+				"title": {
+					"fontSize": "1.3rem",
+					"color": "#333333",
+					"fontWeight": "600",
+					"icon": {
+						"size": "25"
+					}
+				}
+			},
+			"terms": {
+				"fontSize": "0.8rem",
+				"fontWeight": "500"
+			},
+			"href": {
+				"fontSize": "1.0rem",
+				"fontWeight": "510",
+				"color": "teal"
+			}
+		},
+		"button": {
+			"fontColor": "#FFFFFF",
+			"backgroundColor": "teal",
+			"iconSize": "15",
+			"color": "#FFFFFF",
+			"disabled": {
+				"backgroundColor": "#e9ecef"
+			},
+			"back": {
+				"backgroundColor": "gray"
+			}
+		},
+		"navigation": {
+			"fontSize": "1.0rem",
+			"fontWeight": "500",
+			"color": "#333333",
+			"SegmentedControl": {
+				"color": "teal.7",
+				"size": "xs",
+				"radius": "xl",
+				"text": {
+					"fontSize": "1.2rem",
+					"fontWeight": "500",
+					"color": "#333333"
+				}
+			}
+		},
+		"input": {
+			"fontSize": "1.2rem",
+			"fontWeight": "500",
+			"color": "#333333",
+			"size": "lg",
+			"label": {
+				"fontSize": "1.2rem",
+				"fontWeight": "700",
+				"color": "#333333"
+			},
+			"placeholder": {
+				"fontSize": "1rem",
+				"fontWeight": "500",
+				"color": "#333333"
+			},
+			"error": {
+				"fontSize": "1.2rem",
+				"fontWeight": "500",
+				"color": "#333333"
+			}
+		},
+		"table": {
+			"container": {
+				"overflowX": "auto"
+			},
+			"table": {
+				"tableLayout": "fixed",
+				"width": "100%"
+			},
+			"header": {
+				"th": {
+					"whiteSpace": "nowrap",
+					"padding": "12px",
+					"border": "1px solid #ddd",
+					"maxWidth": "200px",
+					"overflow": "hidden",
+					"textOverflow": "ellipsis",
+					"fontWeight": "bold",
+					"backgroundColor": "#f2f2f2"
+				}
+			},
+			"body": {
+				"td": {
+					"whiteSpace": "nowrap",
+					"padding": "12px",
+					"border": "1px solid #ddd",
+					"maxWidth": "200px",
+					"overflow": "hidden",
+					"textOverflow": "ellipsis",
+					"backgroundColor": "#fff"
+				}
+			},
+			"@media (max-width: 640px)": {
+				"header": {
+					"th": {
+						"whiteSpace": "nowrap",
+						"padding": "22px",
+						"border": "1px solid #ddd",
+						"maxWidth": "none",
+						"overflow": "visible",
+						"textOverflow": "clip",
+						"fontSize": "0.65rem"
+					}
+				},
+				"body": {
+					"td": {
+						"whiteSpace": "nowrap",
+						"padding": "12px",
+						"border": "1px solid #ddd",
+						"maxWidth": "none",
+						"overflow": "visible",
+						"textOverflow": "clip",
+						"fontSize": "0.75rem"
+					}
+				}
+			}
+		}
+	}
+}

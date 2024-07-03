@@ -1,0 +1,14 @@
+{
+  "autoimport.filesToScan": "**/*.{js,jsx}",
+  "[javascript]": {
+    "editor.defaultFormatter": "rome.rome"
+  },
+  "autoimport.showNotifications": true,
+  "path-autocomplete.extensionOnImport": true,
+  "editor.formatOnSave": false,
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "vue.features.codeActions.enable": false,
+  "AllAutocomplete.showCurrentDocument": false,
+  "WillLuke.nextjs.addTypesOnSave": true,
+  "WillLuke.nextjs.hasPrompted": true
+}

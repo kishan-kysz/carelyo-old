@@ -1,0 +1,91 @@
+.cardSection {
+	border-bottom: 3px solid #f4f4f4;
+}
+
+.test {
+	width: 100%;
+}
+
+.card {
+	cursor: pointer;
+}
+
+.imgbox {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3rem 0 0.5rem;
+	width: 18.75rem;
+}
+
+.texttitle {
+	display: none;
+}
+
+.background {
+	background-color: #f4f4f4;
+}
+
+.cart-icon {
+	position: relative;
+}
+
+.cart-count {
+	margin: -20px;
+	font-size: 11px;
+	background: red;
+	color: white;
+	padding: 2px 8px;
+	border-radius: 50%;
+}
+
+.mesg {
+	margin-left: 27px;
+}
+
+.iconFollow {
+	margin-left: 20px;
+}
+
+.mesgFollow {
+	margin-left: 10px;
+}
+
+.wrapperFollow {
+	display: flex;
+}
+
+.flex-container-one,
+.flex-container-two {
+	flex-wrap: nowrap;
+	justify-content: center;
+	margin: 0 1rem;
+}
+
+.flex-container-two {
+	margin-top: 1rem;
+}
+
+.content-width {
+	width: 80%;
+}
+
+.width-bookchild {
+	margin: 0 auto;
+	width: 80%;
+}
+
+@media screen and (max-width: 320px) {
+	.card {
+		cursor: pointer;
+	}
+
+	.flex-container-one {
+		margin: 0 1rem;
+	}
+
+	.imgbox {
+		height: 180px;
+		width: 260px;
+	}
+}

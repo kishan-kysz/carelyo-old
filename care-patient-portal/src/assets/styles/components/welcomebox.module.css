@@ -1,0 +1,47 @@
+.c-welcome {
+	color: var(--g-color-secondary);
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding: 0.1rem;
+	width: 80%;
+}
+
+.c-welcome-tag {
+	margin: 0;
+	padding-top: 0.2rem;
+	font-weight: 500;
+}
+
+.c-welcome-profile {
+	display: flex;
+	justify-content: space-between;
+}
+
+.c-welcome-greeting {
+	font-size: calc(var(--g-font-size) + 0.6rem);
+	padding: 0.3rem;
+	text-align: center;
+}
+
+.c-welcome-name {
+	padding: 0.1rem 0;
+	font-weight: 600;
+	text-align: left;
+	font-size: 1.5rem;
+}
+
+.c-welcome-profile a {
+	color: var(--g-text-color);
+	background-color: var(--g-color-warning);
+	font-size: 0.7em;
+}
+
+.c-welcome-profile a:hover {
+	color: red;
+}
+
+.c-welcome-avatar {
+	cursor: pointer;
+	border-radius: 20px;
+}
+

@@ -1,0 +1,108 @@
+{
+  "translation": {
+    "languages": {
+      "english": "English",
+      "french": "Français",
+      "swedish": "Svenska",
+      "swahili": "Kiswahili",
+      "german": "Deutsch",
+      "spanish": "Español",
+      "akan": "Akan",
+      "afrikaans": "Afrikaans",
+      "portuguese": "Português",
+      "hausa": "Hausa",
+      "yoruba": "Yorùbá",
+      "igbo": "Igbo"
+    }
+  },
+  "title": "Ihe Ndị Na-Egwu",
+  "cookies-message": "Ozi website a nwere ike iji nwee aka n'ime ọrụ gị. ",
+  "cookies-learn-more": "Ị chọpụta ọnụ",
+  "cookies-accept": "Kwe ka ọzọrụ",
+
+  "footer-all-rights-reserved": "Carelyo. Ndi na-akpọrọ mkpụrụ ede nke.",
+  "footer-tos": "Ntụgharị nke ntụgharị",
+  "footer-and": "na",
+  "footer-privacy-policy": "Ndezi ndi ozo",
+
+  "PageControls-back": "Rapụtara ije n'etiti",
+  "PageControls-Reset-Pass": "Rapụtara Nkwupụta",
+
+  "PhoneInput-phone-label": "Nọmba nomba",
+  "PhoneInput-phone-desc": "Biko tinye nọmba fōn gị",
+  "PhoneInput-number-error": "Tinye nọmba fōn ndị nkịtị",
+  "PhoneInput-enter-placeholder": "Tinye nọmba fōn gị eg. +234",
+
+"login-redirect-admin": "Na-ere n'okpuru ọnụ System Admin",
+"login-redirect-doctor": "Na-ere na Doctor Dashboard",
+"login-redirect-patient": "Na-ere n'etiti ozi ozi",
+"login-account-exists": "Akawụghị akaụntụ bụ ọrụ",
+"login-success": "Iji na-enweghị ọrụ ọmụma",
+"login-error": "Iji kọwaa ọrụ",
+
+  "login-welcome-header": "Nawedie gị!",
+  "login-description-header": "Enweghị akaụntụ adịghị mma? ",
+  "login-createacc-header": " Mepụta akaụntụ",
+
+  "login-form-email": "I meilị",
+  "login-form-email-placeholder": "i meilị @ carelyo.com",
+  "login-form-email-enter": "Tinye adreesị i meilị gị",
+  "login-form-password": "Nkwupụta",
+  "login-form-password-desc": "Biko tinye nkwupụta gị",
+  "login-form-password-placeholder": "Nkwupụta gị",
+  "login-form-password-forgot": "Hapụ nkwupụta?",
+
+  "login-signin": "Hapụ",
+
+  "forgotpass-onerror-title": "Ihe Gburugburu Aka N'ime Nsogbu",
+  "forgotpass-onerror-message": "Enweghị ike iji alọọ ịnụ ihe nkiri a. Wụọrụ n'azu ahụ",
+
+  "forgotpass-title": "Ị ghọghọ agbasa ịmepụta aka n'ihu?",
+  "forgotpass-title-desc": "Tinye imeịl gị maka nkọwa agbasa ịmepụta aka",
+
+  "forgotpass-form-label": "Imeịl",
+  "forgotpass-form-placeholder": "imeil@carelyo.com",
+
+  "forgotpass-response-title": "Nkọwa Agbasa ịmepụta Aka dịghị ọhụrụ",
+  "forgotpass-response-info1": "Ị ga-apụta otu imeịl gị ka ị ga-ekwezụ ihe gbasara ọ bụla,",
+  "forgotpass-response-info2": "biko leghara ihe gbasara gị na imeịl gị.",
+  "forgotpass-login": "Hazi ihe ị ga-emepụta",
+
+  "newpass-change-success": "Aka N'ihu A Mepụtara Gị Aghugho",
+  "newpass-change-error": "Gbasara ịmepụta aka kwụsị",
+
+  "newpass-form-title": "Agbasa ịmepụta aka gị",
+  "newpass-form-desc": "Tinye ngalaba na ihe di n'obi n'etiti maka agbasa ịmepụta aka gị",
+
+  "newpass-form-email-label": "Imeịl gị",
+  "newpass-form-email-placeholder": "imeil@imeil.com",
+
+  "newpass-form-password-label": "Aka ọhụrụ",
+  "newpass-form-password-placeholder": "Aka ọhụrụ",
+
+  "newpass-form-passconf-label": "Debere Aka ọhụrụ",
+  "newpass-form-passconf-placeholder": "Debere Aka ọhụrụ",
+
+  "register-notif-success": "Biko leghara imeịl gị maka ịchọta",
+  "register-notif-error": "Ịchọta adịghị ọhụrụ",
+
+  "register-form-header-title": "Mepụta aka",
+  "register-form-header-desc": " Nke a gawa n'anya?",
+  "register-form-header-label": " Hazi",
+
+  "register-form-referral": "Ị nwere ike inwere mkpọchi na carelyo.",
+  "register-form-enter-details": "Biko gaa na-adịghị anya dị ọrụ gị biko.",
+
+  "register-form-email": "Email",
+  "register-form-email-placeholder": "email@carelyo.com",
+  "register-form-email-desc": "Anyị ga-enye gị email echefughị",
+
+  "register-form-referral-label": "Koodu isiokwu (dị ka ọhụrụ)",
+  "register-form-referral-desc": "Tinye koodu isiokwu",
+  "register-form-referral-placeholder": "Taa koodu isiokwu",
+
+  "register-form-tos-desc": "Na ị chọrọ, ị nwere ike inwere ònwụ, nwere ike inye aka na anyị ma ọ bụrụ na anyị kwuru na anyị nwere ike inye aka na anyị",
+  "register-form-tos-accept": "Chọrọ",
+  "register-form-tos-terms": "Ònwụ na akaụntị",
+  "register-form-btn": "Tinye akaụntị"
+}

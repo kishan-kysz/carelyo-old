@@ -1,0 +1,28 @@
+FROM node:lts-alpine
+WORKDIR /app
+
+COPY . .
+
+ENV NODE_ENV production
+RUN yarn install
+RUN yarn config set enableTelemetry 0
+
+RUN yarn build
+
+RUN  ls ./
+
+RUN addgroup --system --gid 1001 nodejs
+RUN adduser --system --uid 1001 nextjs
+
+# copy assets and the generated standalone server
+
+COPY --chown=nextjs:nodejs  . .
+
+USER nextjs
+
+EXPOSE 3000
+
+ENV PORT 3000
+
+# Serve the app
+CMD ["node", "server.js"]

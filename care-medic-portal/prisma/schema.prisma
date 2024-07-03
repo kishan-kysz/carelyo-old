@@ -1,0 +1,38 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["fullTextIndex"]
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model cd10 {
+  id                      String  @id @default(auto()) @map("_id") @db.ObjectId
+  Age_Range               String?
+  Comment                 String?
+  Gender                  String?
+  SA_End_Date             String?
+  SA_Revision_History     String?
+  SA_Start_Date           String?
+  Status                  String?
+  Valid_ICD10_Asterisk    String
+  Valid_ICD10_ClinicalUse String
+  Valid_ICD10_Dagger      String
+  Valid_ICD10_Primary     String
+  Valid_ICD10_Sequelae    String
+  WHO_End_date            String?
+  WHO_Revision_History    String?
+  WHO_Start_date          String?
+  chapter                 String
+  chapter_description     String
+  group_code              String
+  group_description       String
+  icd103_code             String
+  icd103_code_description String
+  icd10_code              String
+  id_                     String  @map("id")
+  who_full_description    String
+  @@map("1cd10")
+}

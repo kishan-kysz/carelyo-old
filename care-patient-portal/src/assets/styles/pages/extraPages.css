@@ -1,0 +1,38 @@
+.container {
+	letter-spacing: 0;
+	margin-top: 0;
+	line-height: 1.25;
+	margin: 0 10px 14px 10px;
+	padding: 0 1vw;
+	margin-top: 20px;
+}
+
+@media (min-width: 1200px) {
+	.container {
+		padding: 0 10vw;
+	}
+}
+
+.text {
+	margin-bottom: 28px;
+	text-align: justify;
+}
+
+.back-button {
+	background-color: #05a98b;
+	box-shadow: 0 0;
+	color: #fff;
+	font-weight: bold;
+	text-align: left;
+	max-width: 100px;
+	width: 100%;
+	align-self: flex-end;
+	margin: 1rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	padding: 0.6rem 0.8rem;
+	height: 3rem;
+	margin-bottom: 15px;
+}

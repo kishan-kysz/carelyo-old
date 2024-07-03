@@ -1,0 +1,28 @@
+FROM node:16 as patient
+
+WORKDIR /patient
+
+COPY package*.json .
+COPY yarn.lock .
+
+RUN yarn install --production
+COPY . .
+RUN yarn build
+
+# Stage 2
+# run yarn generate buildid and set the result as an environment variable for the build export VITE_BUILD_ID=$(cat .buildid) &&
+
+RUN yarn generate:buildid --docker && export VITE_BUILD_ID=$(cat BUILD_ID)
+
+#FROM swecon18ab/nginx:latest
+FROM swedcon18com/carelyo:ubuntu-nginx
+# Set working directory to nginx asset directory
+WORKDIR /usr/share/nginx/html
+
+# Copy the build output from the build container
+
+COPY --from=patient /patient/build ./
+
+EXPOSE 80
+# Containers run nginx with global directives and daemon off
+ENTRYPOINT ["nginx", "-g", "daemon off;"]

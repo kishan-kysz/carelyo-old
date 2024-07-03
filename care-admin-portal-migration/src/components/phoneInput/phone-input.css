@@ -1,0 +1,10 @@
+.Group--css {
+    margin-bottom: '5px';
+    cursor: pointer;
+    padding: 5px;
+  }
+  
+  .Group--css:hover {
+    background-color: rgba(167, 172, 167, 0.13);
+  }
+  

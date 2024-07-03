@@ -1,0 +1,3 @@
+ALTER TABLE user
+    ADD COLUMN profile_photo VARCHAR(300) NULL,
+    ADD COLUMN sso BIT NULL;

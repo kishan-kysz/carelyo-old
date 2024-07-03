@@ -1,0 +1,29 @@
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100px;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f8F8F8;
+}
+
+.logoContainer .poweredText {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #30323f;
+    padding-left: 0.5em;
+
+}
+
+.logoContainer .poweredText .carelyoLabel {
+
+    font-weight: 500;
+    color: #13b887;
+}

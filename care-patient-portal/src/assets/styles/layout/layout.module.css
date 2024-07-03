@@ -1,0 +1,49 @@
+.l-content-wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	min-height: 100%;
+	flex: auto;
+	top: 0;
+	position: relative;
+	z-index: 21;
+}
+
+.l-page-img {
+	width: 20rem;
+	padding: 0.5rem;
+}
+
+.mobile {
+	width: 100%;
+	background-color: white;
+	overflow-y: scroll;
+	height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+	.content {
+		overflow-y: hidden !important;
+	}
+}
+
+.content {
+	height: 60vh;
+	flex: 1;
+	overflow-y: scroll;
+}
+
+.desktop {
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	overflow-y: hidden;
+	height: 100vh;
+}
+
+.navbar {
+	position: sticky;
+	top: 0;
+	z-index: 21;
+}

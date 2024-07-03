@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+<title>Follow up reminder</title>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style th:text="${style_sheet}"></style>
+</head>
+<body>
+<div class="template">
+<div class="header">
+
+<img alt="Carelyo Logo" class="logo-top" src="https://www.carelyo.com/static/media/logo.3750afbe.svg" width="150">
+
+<h1>Reminder<span th:text="${patient_title}"></span>.</h1>
+<p class="text-body">We hope this message finds you well, This is a friendly reminder of your
+upcoming follow-up appointment that is scheduled to take place on
+<span th:text="${appointment_date}"></span> at <span th:text="${appointment_time}"></span>
+with <span th:text="${doctor_name}"></span> at <span th:text="${clinic_name}"></span>.
+</p>
+<p class="text-body"> We highly recommend that you attend this appointment as scheduled to
+ensure that your health is being monitored and managed appropriately. During the appointment, you will have the opportunity to discuss any concerns or questions that you may have with your doctor.</p>
+<p class="text-body">If you need to reschedule your appointment, please contact us as soon as
+possible to make alternative arrangements.</p>
+<p class="text-body">We look forward to seeing you at your follow-up appointment.
+</p>
+<p class="text-body">Thank you for your understanding, <span th:text="${your_name}"></span>.
+</p>
+<p class="text-body">Reminder details.</p>
+<div class="body">
+<span class="stor" th:text="${time_left_expired}"></span>
+<a th:href="@{${login_link}}">
+<p class="password stor">Login</p>
+</a>
+<p>Or login <span> <a class="login" th:href="@{${login_link}}">here</a></span></p>
+<div class="social-icons">
+
+<img alt="Facebook" src="https://www.carelyo.com/static/media/facebook.2eab3ddd.svg">
+<img alt="Linkedin" src="https://www.carelyo.com/static/media/linkedin.3161e716.svg">
+<img alt="Twitter" src="https://www.carelyo.com/static/media/twitter.5c279dca.svg">
+<img alt="Instagram" src="https://www.carelyo.com/static/media/instagram.3c700c8a.svg">
+
+</div>
+</div>
+</div>
+<div class="footer">
+<p class="white">Regards, <br> Carelyo</p>
+<img alt="Carelyo Logo" src="https://objectstorage.us-sanjose-1.oraclecloud.com/n/axorvolkqwth/b/staticimages/o/logowhiteNewLogoWhite%20(1).png" width="100">
+</div>
+</body>
+</html>
